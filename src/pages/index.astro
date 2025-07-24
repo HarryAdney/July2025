@@ -1,0 +1,397 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/global.css";
+---
+
+<Layout title="Foresters Arms | A Relaxing Retreat in Coverdale">
+  <Header />
+
+  <main>
+    <Hero />
+
+    <!-- Our Story Section -->
+    <section id="about-us" class="py-20 bg-gray-900 md:py-32">
+      <div class="container px-6 mx-auto">
+        <div class="grid items-center gap-12 md:grid-cols-2">
+          <div class="animate-fadeInUp">
+            <h2 class="mb-6 text-4xl md:text-5xl font-display gold-accent">
+              A Timeless Retreat
+            </h2>
+            <p class="mb-4 leading-relaxed text-gray-400">
+              The Foresters Arms is a Grade II listed property, located in the
+              picturesque village of Carlton-in-Coverdale in the North Yorkshire
+              Dales. Nestled under the peaks of Roova Crags and Penhill, Carlton
+              is only six miles from Leyburn and is set within The Yorkshire
+              Dales National Park.
+            </p>
+            <p class="leading-relaxed text-gray-400">
+              Named after the Foresters Friendly Society, this 250-year-old inn
+              is a welcome rest for the weary traveler. It is convenient for
+              many local attractions in the Dales and there are excellent walks
+              in the beautiful countryside around Carlton. We are also on the
+              Yorkshire Dales Cycle Way with several routes that will definitely
+              help keep you fit!
+            </p>
+          </div>
+          <div
+            class="flex items-center justify-center w-full bg-gray-800 rounded-lg shadow-xl h-80 md:h-96 animate-fadeInUp delay-1"
+          >
+            <span class="text-2xl font-semibold text-gray-500"
+              ><img src="./menu-item-1-720x384.webp" alt="lovely meal" /></span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accommodation Showcase Section -->
+    <section id="rooms" class="py-20 bg-black md:py-32">
+      <div class="container px-6 mx-auto">
+        <h2
+          class="mb-16 text-4xl text-center md:text-5xl font-display gold-accent animate-fadeInUp"
+        >
+          A Warm Comforting Welcome Awaits
+        </h2>
+        <div class="grid gap-8 md:grid-cols-3">
+          <!-- Room Card 1: King Superior -->
+          <div
+            class="p-8 transition-transform duration-300 transform shadow-2xl glassmorphic-card rounded-xl hover:scale-105 animate-fadeInUp delay-1"
+          >
+            <div
+              class="flex items-center justify-center w-full h-56 mb-6 bg-gray-700 rounded-lg"
+            >
+              <span class="text-xl text-gray-400"><img src="" alt="" /></span>
+            </div>
+            <h3 class="mb-3 text-2xl font-display gold-accent">
+              King Superior
+            </h3>
+            <p class="mb-4 text-sm text-gray-400">
+              Our most spacious and luxurious offering. This room is pet-free,
+              ensuring pristine comfort.
+            </p>
+            <ul class="mb-6 space-y-1 text-sm text-gray-400">
+              <li>
+                <span class="mr-2 gold-accent">&#10003;</span> 32" Wall-Mounted TV
+              </li>
+              <li>
+                <span class="mr-2 gold-accent">&#10003;</span> Tea & Coffee Facilities
+              </li>
+              <li>
+                <span class="mr-2 gold-accent">&#10003;</span> Underfloor Heating
+              </li>
+              <li>
+                <span class="mr-2 gold-accent">&#10003;</span> Mini Fridge with Fresh
+                Milk
+              </li>
+            </ul>
+            <a
+              href="http://securebooking.eviivo.com/mywebsite/ForestersArmsDL8.home?viewname=onlinebooking"
+              target="_blank"
+              class="inline-block px-6 py-2 font-semibold transition-colors duration-300 border-2 rounded-lg border-gold-accent gold-accent hover:bg-gold-accent hover:text-black"
+              >Book This Room</a
+            >
+          </div>
+
+          <!-- Room Card 2: Twin Executive -->
+          <div
+            class="p-8 transition-transform duration-300 transform shadow-2xl glassmorphic-card rounded-xl hover:scale-105 animate-fadeInUp delay-2"
+          >
+            <div
+              class="flex items-center justify-center w-full h-56 mb-6 bg-gray-700 rounded-lg"
+            >
+              <span class="text-xl text-gray-400"><img src="" alt="" /></span>
+            </div>
+            <h3 class="mb-3 text-2xl font-display gold-accent">Room name</h3>
+            <p class="mb-4 text-sm text-gray-400">
+              Perfect for friends or colleagues exploring the Dales. Dogs
+              welcome (£10 fee).
+            </p>
+            <ul class="mb-6 space-y-1 text-sm text-gray-400">
+              <li>
+                <span class="mr-2 gold-accent">&#10003;</span> 32" Wall-Mounted TV
+              </li>
+              <li>
+                <span class="mr-2 gold-accent">&#10003;</span> Tea & Coffee Facilities
+              </li>
+              <li>
+                <span class="mr-2 gold-accent">&#10003;</span> Underfloor Heating
+              </li>
+              <li>
+                <span class="mr-2 gold-accent">&#10003;</span> Pet Friendly
+              </li>
+            </ul>
+            <a
+              href="http://securebooking.eviivo.com/mywebsite/ForestersArmsDL8.home?viewname=onlinebooking"
+              target="_blank"
+              class="inline-block px-6 py-2 font-semibold transition-colors duration-300 border-2 rounded-lg border-gold-accent gold-accent hover:bg-gold-accent hover:text-black"
+              >Book This Room</a
+            >
+          </div>
+
+          <!-- Room Card 3: Double Premium -->
+          <div
+            class="p-8 transition-transform duration-300 transform shadow-2xl glassmorphic-card rounded-xl hover:scale-105 animate-fadeInUp delay-3"
+          >
+            <div
+              class="flex items-center justify-center w-full h-56 mb-6 bg-gray-700 rounded-lg"
+            >
+              <span class="text-xl text-gray-400"><img src="" alt="" /></span>
+            </div>
+            <h3 class="mb-3 text-2xl font-display gold-accent">Room name</h3>
+            <p class="mb-4 text-sm text-gray-400">
+              A cozy and elegant retreat for couples. Dogs welcome (£10 fee).
+            </p>
+            <ul class="mb-6 space-y-1 text-sm text-gray-400">
+              <li>
+                <span class="mr-2 gold-accent">&#10003;</span> 32" Wall-Mounted TV
+              </li>
+              <li>
+                <span class="mr-2 gold-accent">&#10003;</span> Tea & Coffee Facilities
+              </li>
+              <li>
+                <span class="mr-2 gold-accent">&#10003;</span> Underfloor Heating
+              </li>
+              <li>
+                <span class="mr-2 gold-accent">&#10003;</span> Pet Friendly
+              </li>
+            </ul>
+            <a
+              href="http://securebooking.eviivo.com/mywebsite/ForestersArmsDL8.home?viewname=onlinebooking"
+              target="_blank"
+              class="inline-block px-6 py-2 font-semibold transition-colors duration-300 border-2 rounded-lg border-gold-accent gold-accent hover:bg-gold-accent hover:text-black"
+              >Book This Room</a
+            >
+          </div>
+        </div>
+        <p class="mt-12 text-center text-gray-400 animate-fadeInUp delay-4">
+          All rooms include a delicious home-cooked Yorkshire breakfast. Book
+          direct on this website for a <strong>15% discount</strong>.
+          <br />Single night stays Mon-Thu. Minimum 2 nights Fri-Sun.
+        </p>
+      </div>
+    </section>
+
+    <!-- Restaurant Section -->
+    <section id="restaurant" class="py-20 bg-gray-900 md:py-32">
+      <div class="container px-6 mx-auto">
+        <h2
+          class="mb-16 text-4xl text-center md:text-5xl font-display gold-accent animate-fadeInUp"
+        >
+          Our Restaurant
+        </h2>
+        <div class="grid gap-10 md:grid-cols-1 lg:grid-cols-3">
+          <!-- Feature 1: Local Flavours -->
+          <div
+            class="p-8 bg-gray-800 rounded-lg shadow-lg animate-fadeInUp delay-3"
+          >
+            <div
+              class="flex items-center justify-center w-full h-48 mb-6 bg-gray-700 rounded-md"
+            >
+              <span class="text-lg text-gray-500"
+                ><img
+                  src="./local-flavours-405x192.webp"
+                  alt="lovely meal"
+                /></span
+              >
+            </div>
+            <h3 class="mb-3 text-2xl font-display gold-accent">
+              Local Flavours
+            </h3>
+            <p class="text-sm text-gray-400">
+              Indulge in hearty, home-cooked meals prepared with locally sourced
+              ingredients, reflecting the best of Yorkshire culinary traditions.
+              (Check food serving times below).
+            </p>
+          </div>
+          <!-- Feature 2: Legendary Ales -->
+          <div
+            class="p-8 bg-gray-800 rounded-lg shadow-lg animate-fadeInUp delay-1"
+          >
+            <div
+              class="flex items-center justify-center w-full h-48 mb-6 bg-gray-700 rounded-md"
+            >
+              <span class="text-lg text-gray-500"
+                ><img
+                  src="./theakston-405x192.jpeg"
+                  alt="A bottle of Theakston's Old Peculiar  "
+                /></span
+              >
+            </div>
+            <h3 class="mb-3 text-2xl font-display gold-accent">
+              Legendary Ales
+            </h3>
+            <p class="text-sm text-gray-400">
+              We proudly serve a wide range of beers, lagers and ales on keg; a
+              rare treat and a taste of true Yorkshire heritage.
+            </p>
+          </div>
+          <!-- Feature 3: Dales Adventures -->
+          <div
+            class="p-8 bg-gray-800 rounded-lg shadow-lg animate-fadeInUp delay-2"
+          >
+            <div
+              class="flex items-center justify-center w-full h-48 mb-6 bg-gray-700 rounded-md"
+            >
+              <span class="text-lg text-gray-500"
+                ><img
+                  src="./dales-adventures-405x192.webp"
+                  alt="lovely meal"
+                /></span
+              >
+            </div>
+            <h3 class="mb-3 text-2xl font-display gold-accent">
+              Dales Adventures
+            </h3>
+            <p class="text-sm text-gray-400">
+              Located on the Yorkshire Dales Cycle Way and surrounded by
+              breathtaking walks, we are the perfect base for explorers. The
+              Tour de Yorkshire often passes our door!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-black md:py-32">
+      <div class="container px-6 mx-auto">
+        <h2
+          class="mb-16 text-4xl text-center md:text-5xl font-display gold-accent animate-fadeInUp"
+        >
+          Reviews
+        </h2>
+        <div class="grid gap-8 md:grid-cols-2">
+          <div
+            class="p-6 rounded-lg glassmorphic-card animate-fadeInUp delay-1"
+          >
+            <p class="mb-4 italic text-gray-300">
+              "Great spot for a night away in one of the quieter Yorkshire
+              Dales. I would highly recommend.."
+            </p>
+            <p class="font-semibold text-right gold-accent">- Diane H.</p>
+          </div>
+          <div
+            class="p-6 rounded-lg glassmorphic-card animate-fadeInUp delay-2"
+          >
+            <p class="mb-4 italic text-gray-300">
+              "We stayed here for a night while bikepacking in the dales and
+              cannot recommend it enough!"
+            </p>
+            <p class="font-semibold text-right gold-accent">- Lucy R.</p>
+          </div>
+          <div
+            class="p-6 rounded-lg glassmorphic-card animate-fadeInUp delay-3"
+          >
+            <p class="mb-4 italic text-gray-300">
+              " If you’ve stayed here before under different tenants and are
+              thinking of returning again you won’t be disappointed"
+            </p>
+            <p class="font-semibold text-right gold-accent">- Daniel J.</p>
+          </div>
+          <div
+            class="p-6 rounded-lg glassmorphic-card animate-fadeInUp delay-4"
+          >
+            <p class="mb-4 italic text-gray-300">
+              "Incredibly friendly welcome from all the staff - proper Yorkshire
+              hospitality."
+            </p>
+            <p class="font-semibold text-right gold-accent">- Chris B.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Opening Hours & Practical Info -->
+    <section id="info" class="py-20 bg-gray-900 md:py-32">
+      <div class="container px-6 mx-auto">
+        <h2
+          class="mb-16 text-4xl text-center md:text-5xl font-display gold-accent animate-fadeInUp"
+        >
+          Your Invitation Awaits
+        </h2>
+        <div class="grid items-start gap-12 md:grid-cols-2">
+          <div class="animate-fadeInUp delay-1">
+            <h3 class="mb-6 text-3xl text-white font-display">Opening Hours</h3>
+            <div class="space-y-6">
+              <div>
+                <h4 class="mb-2 text-xl font-semibold gold-accent">
+                  Bar Timings:
+                </h4>
+                <ul class="space-y-1 text-gray-400">
+                  <li>
+                    Mon to Thu: <span class="float-right">5pm to Late</span>
+                  </li>
+                  <li>
+                    Fri, Sat & Sun: <span class="float-right">12pm to Late</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="mb-2 text-xl font-semibold gold-accent">
+                  Food Service:
+                </h4>
+                <ul class="space-y-1 text-gray-400">
+                  <li>
+                    Monday: <span class="float-right">No food service</span>
+                  </li>
+                  <li>
+                    Tue, Wed: <span class="float-right">5pm to 8:30pm</span>
+                  </li>
+                  <li>
+                    Thursday (Ramsay's Fish & Chips van): <span
+                      class="float-right">6:30pm to 7:20pm</span
+                    >
+                  </li>
+                  <li>
+                    Fri, Sat: <span class="float-right"
+                      >12pm - 2:30pm & 5pm - 8:30pm</span
+                    >
+                  </li>
+                  <li>Sunday: <span class="float-right">12pm to 4pm</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="animate-fadeInUp delay-2">
+            <!-- <h3 class="mb-6 text-3xl text-white font-display">
+              Book Your Stay
+            </h3>
+            <p class="mb-6 text-gray-400">
+              Ready to experience the charm of Foresters Arms? Book your room
+              today for an unforgettable Yorkshire Dales getaway. Direct
+              bookings receive our best rates.
+            </p>
+            <a
+              href="http://securebooking.eviivo.com/mywebsite/ForestersArmsDL8.home?viewname=onlinebooking"
+              target="_blank"
+              class="block w-full px-8 py-3 text-lg font-semibold text-center text-black transition-all duration-300 transform rounded-lg bg-gold-accent hover-gold-accent hover:scale-105 focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-opacity-50"
+              style="animation: pulseGold 2s infinite 1s;"
+            >
+              Book Now
+            </a> -->
+            <div
+              class="flex items-center justify-center w-full h-64 mt-8 bg-gray-800 rounded-lg shadow-xl"
+            >
+              <span class="text-2xl font-semibold text-gray-500">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20143.807405608837!2d-1.9011378405272987!3d54.26163964608975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487c100829e1e2c3%3A0x95652f63bc508d56!2sThe%20Foresters%20Arms!5e1!3m2!1sen!2suk!4v1753109471340!5m2!1sen!2suk"
+                  width="720"
+                  height="350"
+                  style="border:0;"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

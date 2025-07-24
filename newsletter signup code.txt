@@ -1,0 +1,40 @@
+<!-- Newsletter Signup -->
+    <section class="py-16 bg-gray-900">
+      <div class="container px-6 mx-auto text-center">
+        <h2 class="mb-4 text-3xl font-display gold-accent animate-fadeInUp">
+          Stay Connected
+        </h2>
+        <p class="max-w-xl mx-auto mb-8 text-gray-400 animate-fadeInUp delay-1">
+          Subscribe to our mailing list for exclusive offers, news from the
+          Dales, and updates from The Foresters Arms.
+        </p>
+        <form
+          action="https://forestersarmscoverdale.us12.list-manage.com/subscribe/post?u=0f7487539dd7cb785f8343502&id=a0f8ce58d4"
+          method="post"
+          target="_blank"
+          class="flex max-w-md mx-auto animate-fadeInUp delay-2"
+        >
+          <input
+            type="email"
+            name="EMAIL"
+            class="w-full px-4 py-3 text-gray-200 bg-gray-800 border border-gray-700 rounded-l-lg focus:ring-gold-accent focus:border-gold-accent focus:outline-none"
+            placeholder="Enter your email address"
+            required
+          />
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input
+              type="text"
+              name="b_0f7487539dd7cb785f8343502_a0f8ce58d4"
+              tabindex="-1"
+              value=""
+            />
+          </div>
+          <button
+            type="submit"
+            class="px-6 py-3 font-semibold text-black transition-colors duration-300 rounded-r-lg bg-gold-accent hover-gold-accent"
+            >Subscribe</button
+          >
+        </form>
+      </div>
+    </section>
