@@ -13,15 +13,18 @@
         class="text-2xl font-bold font-display gold-accent animate-fadeIn"
         >Foresters Arms</a
       >
-      <nav class="items-center hidden space-x-6 md:flex animate-fadeIn delay-1">
+      <nav class="items-center hidden space-x-6 xl-nav:flex animate-fadeIn delay-1">
         <a href="./" class="text-gray-300 nav-link-hover">Home</a>
         <a href="./#about-us" class="text-gray-300 nav-link-hover">About Us</a>
-        <a href="#history" class="text-gray-300 nav-link-hover">History</a>
+        <a href="./local-attractions" class="text-gray-300 nav-link-hover"
+          >Local Attractions</a
+        >
+        <a href="./history" class="text-gray-300 nav-link-hover">History</a>
         <a href="./#rooms" class="text-gray-300 nav-link-hover">Rooms</a>
         <a href="./#restaurant" class="text-gray-300 nav-link-hover"
           >Restaurant</a
         >
-        <a href="#contact" class="text-gray-300 nav-link-hover">Contact</a>
+        <a href="./#contact" class="text-gray-300 nav-link-hover">Contact</a>
         <a
           href="http://securebooking.eviivo.com/mywebsite/ForestersArmsDL8.home?viewname=onlinebooking"
           target="_blank"
@@ -29,10 +32,11 @@
           >Book Now</a
         >
       </nav>
-      <div class="md:hidden">
+      <div class="xl-nav:hidden">
         <button
           id="mobile-menu-button"
           class="text-gray-300 focus:outline-none"
+          onclick="toggleMobileMenu()"
         >
           <svg
             class="w-6 h-6"
@@ -54,25 +58,41 @@
   <!-- Mobile Menu Panel -->
   <div
     id="mobile-menu"
-    class="absolute left-0 right-0 hidden py-4 md:hidden top-full bg-gray-900/95 backdrop-blur-md"
+    class="absolute left-0 right-0 py-4 xl-nav:hidden top-full bg-gray-900/95 backdrop-blur-md z-40 border-t border-gray-700 transform transition-all duration-300 ease-in-out opacity-0 -translate-y-2 pointer-events-none"
+    style="display: none;"
   >
     <a
-      href="#our-history"
+      href="./"
       class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
-      >Our Story</a
+      >Home</a
     >
     <a
-      href="#rooms"
+      href="./#about-us"
+      class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
+      >About Us</a
+    >
+    <a
+      href="./local-attractions"
+      class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
+      >Local Attractions</a
+    >
+    <a
+      href="./history"
+      class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
+      >History</a
+    >
+    <a
+      href="./#rooms"
       class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
       >Rooms</a
     >
     <a
-      href="#restaurant"
+      href="./#restaurant"
       class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
       >Restaurant</a
     >
     <a
-      href="#contact"
+      href="./#contact"
       class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
       >Contact</a
     >
@@ -84,3 +104,63 @@
     >
   </div>
 </header>
+
+<script is:inline>
+  // Mobile menu toggle functionality
+  function toggleMobileMenu() {
+    const mobileMenu = document.getElementById("mobile-menu");
+    if (mobileMenu) {
+      const isHidden = mobileMenu.style.display === "none";
+
+      if (isHidden) {
+        // Show menu
+        mobileMenu.style.display = "block";
+        setTimeout(() => {
+          mobileMenu.classList.remove("opacity-0", "-translate-y-2", "pointer-events-none");
+          mobileMenu.classList.add("opacity-100", "translate-y-0");
+        }, 10);
+      } else {
+        // Hide menu
+        mobileMenu.classList.remove("opacity-100", "translate-y-0");
+        mobileMenu.classList.add("opacity-0", "-translate-y-2", "pointer-events-none");
+        setTimeout(() => {
+          mobileMenu.style.display = "none";
+        }, 300);
+      }
+    }
+  }
+
+  // Close mobile menu when clicking outside
+  document.addEventListener("click", function (event) {
+    const mobileMenuButton = document.getElementById("mobile-menu-button");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    if (
+      mobileMenuButton &&
+      mobileMenu &&
+      mobileMenu.style.display !== "none" &&
+      !mobileMenuButton.contains(event.target) &&
+      !mobileMenu.contains(event.target)
+    ) {
+      // Hide menu
+      mobileMenu.classList.remove("opacity-100", "translate-y-0");
+      mobileMenu.classList.add("opacity-0", "-translate-y-2", "pointer-events-none");
+      setTimeout(() => {
+        mobileMenu.style.display = "none";
+      }, 300);
+    }
+  });
+
+  // Close mobile menu when window is resized to desktop size
+  window.addEventListener("resize", function () {
+    const mobileMenu = document.getElementById("mobile-menu");
+    if (mobileMenu && window.innerWidth >= 1200 && mobileMenu.style.display !== "none") {
+      mobileMenu.classList.remove("opacity-100", "translate-y-0");
+      mobileMenu.classList.add("opacity-0", "-translate-y-2", "pointer-events-none");
+      setTimeout(() => {
+        mobileMenu.style.display = "none";
+      }, 300);
+    }
+  });
+</script>
+
