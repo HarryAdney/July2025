@@ -56,18 +56,21 @@ import "../styles/global.css";
           A Warm Comforting Welcome Awaits
         </h2>
         <div class="grid gap-8 md:grid-cols-3">
-          <!-- Room Card 1: King Superior -->
+          <!-- Room Card 1: King Room -->
           <div
             class="p-8 transition-transform duration-300 transform shadow-2xl glassmorphic-card rounded-xl hover:scale-105 animate-fadeInUp delay-1"
           >
             <div
               class="flex items-center justify-center w-full h-56 mb-6 bg-gray-700 rounded-lg"
             >
-              <span class="text-xl text-gray-400"><img src="" alt="" /></span>
+              <span class="text-xl text-gray-400"
+                ><img
+                  src="./king-room-bed-531x244.webp"
+                  alt="Double bed in The King Room"
+                /></span
+              >
             </div>
-            <h3 class="mb-3 text-2xl font-display gold-accent">
-              King Superior
-            </h3>
+            <h3 class="mb-3 text-2xl font-display gold-accent">King Room</h3>
             <p class="mb-4 text-sm text-gray-400">
               Our most spacious and luxurious offering. This room is pet-free,
               ensuring pristine comfort.
@@ -95,20 +98,22 @@ import "../styles/global.css";
             >
           </div>
 
-          <!-- Room Card 2: Twin Executive -->
+          <!-- Room Card 2: Double Room -->
           <div
             class="p-8 transition-transform duration-300 transform shadow-2xl glassmorphic-card rounded-xl hover:scale-105 animate-fadeInUp delay-2"
           >
             <div
               class="flex items-center justify-center w-full h-56 mb-6 bg-gray-700 rounded-lg"
             >
-              <span class="text-xl text-gray-400"><img src="" alt="" /></span>
+              <span class="text-xl text-gray-400"
+                ><img
+                  src="./double-room-bed-531x244.webp"
+                  alt="Double bed in Double Room with red patterned cushions"
+                /></span
+              >
             </div>
-            <h3 class="mb-3 text-2xl font-display gold-accent">Room name</h3>
-            <p class="mb-4 text-sm text-gray-400">
-              Perfect for friends or colleagues exploring the Dales. Dogs
-              welcome (£10 fee).
-            </p>
+            <h3 class="mb-3 text-2xl font-display gold-accent">Double Room</h3>
+            <p class="mb-4 text-sm text-gray-400">Perfect for couples.</p>
             <ul class="mb-6 space-y-1 text-sm text-gray-400">
               <li>
                 <span class="mr-2 gold-accent">&#10003;</span> 32" Wall-Mounted TV
@@ -131,18 +136,23 @@ import "../styles/global.css";
             >
           </div>
 
-          <!-- Room Card 3: Double Premium -->
+          <!-- Room Card 3: Twin Room -->
           <div
             class="p-8 transition-transform duration-300 transform shadow-2xl glassmorphic-card rounded-xl hover:scale-105 animate-fadeInUp delay-3"
           >
             <div
               class="flex items-center justify-center w-full h-56 mb-6 bg-gray-700 rounded-lg"
             >
-              <span class="text-xl text-gray-400"><img src="" alt="" /></span>
+              <span class="text-xl text-gray-400"
+                ><img
+                  src="./twin-room-beds-531x244.webp"
+                  alt="in he Twin Room"
+                /></span
+              >
             </div>
-            <h3 class="mb-3 text-2xl font-display gold-accent">Room name</h3>
+            <h3 class="mb-3 text-2xl font-display gold-accent">Twin Room</h3>
             <p class="mb-4 text-sm text-gray-400">
-              A cozy and elegant retreat for couples. Dogs welcome (£10 fee).
+              A cozy and elegant retreat for couples, friends or family.
             </p>
             <ul class="mb-6 space-y-1 text-sm text-gray-400">
               <li>
@@ -286,8 +296,8 @@ import "../styles/global.css";
             class="p-6 rounded-lg glassmorphic-card animate-fadeInUp delay-3"
           >
             <p class="mb-4 italic text-gray-300">
-              " If you’ve stayed here before under different tenants and are
-              thinking of returning again you won’t be disappointed"
+              " If you've stayed here before under different tenants and are
+              thinking of returning again you won't be disappointed"
             </p>
             <p class="font-semibold text-right gold-accent">- Daniel J.</p>
           </div>
@@ -373,19 +383,20 @@ import "../styles/global.css";
             >
               Book Now
             </a> -->
-            <div
-              class="flex items-center justify-center w-full h-64 mt-8 bg-gray-800 rounded-lg shadow-xl"
-            >
-              <span class="text-2xl font-semibold text-gray-500">
+            <!-- Responsive Google Maps Container -->
+            <div class="mt-8 bg-gray-800 rounded-lg shadow-xl overflow-hidden">
+              <div class="responsive-map-container">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20143.807405608837!2d-1.9011378405272987!3d54.26163964608975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487c100829e1e2c3%3A0x95652f63bc508d56!2sThe%20Foresters%20Arms!5e1!3m2!1sen!2suk!4v1753109471340!5m2!1sen!2suk"
-                  width="720"
-                  height="350"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2298.5!2d-1.8956!3d54.2616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487c100829e1e2c3%3A0x95652f63bc508d56!2sThe%20Foresters%20Arms!5e0!3m2!1sen!2suk!4v1753109471340!5m2!1sen!2suk"
+                  width="100%"
+                  height="100%"
                   style="border:0;"
                   allowfullscreen=""
                   loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe></span
-              >
+                  referrerpolicy="no-referrer-when-downgrade"
+                  title="Location of The Foresters Arms, Carlton-in-Coverdale">
+                </iframe>
+              </div>
             </div>
           </div>
         </div>

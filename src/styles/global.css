@@ -158,6 +158,39 @@ section {
   box-sizing: border-box;
 }
 
+/* Responsive Google Maps Container */
+.responsive-map-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  overflow: hidden;
+}
+
+.responsive-map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Mobile-specific map adjustments */
+@media (max-width: 768px) {
+  .responsive-map-container {
+    padding-bottom: 75%; /* 4:3 aspect ratio for mobile - better for portrait viewing */
+    margin: 0 -1rem; /* Extend to screen edges on mobile */
+    border-radius: 0; /* Remove border radius on mobile for full-width effect */
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-map-container {
+    padding-bottom: 100%; /* Square aspect ratio for very small screens */
+  }
+}
+
 /* Additional responsive fixes for hero background */
 @media (max-width: 1400px) {
   section[style*="background-image"] {
