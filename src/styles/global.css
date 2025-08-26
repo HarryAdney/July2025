@@ -191,11 +191,82 @@ section {
   }
 }
 
-/* Additional responsive fixes for hero background */
+/* Responsive image utilities */
+.responsive-img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.responsive-img-contain {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* Hero background responsive improvements */
+.hero-background {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Additional responsive fixes for hero and other background images */
 @media (max-width: 1400px) {
+  .hero-background,
   section[style*="background-image"] {
     background-size: cover !important;
     background-position: center center !important;
     background-attachment: scroll !important;
+  }
+}
+
+/* Mobile-specific hero adjustments */
+@media (max-width: 768px) {
+  .hero-background {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center top;
+    min-height: 100vh;
+  }
+
+  /* Ensure images don't overflow on mobile */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Responsive image containers */
+  .responsive-img-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .responsive-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+  .hero-background {
+    background-position: center center;
+    min-height: 100vh;
+  }
+
+  /* Adjust image aspect ratios for very small screens */
+  .responsive-img-container {
+    aspect-ratio: 16/9;
+  }
+}
+
+/* Large screens - maintain fixed attachment for better parallax effect */
+@media (min-width: 1401px) {
+  .hero-background {
+    background-attachment: fixed;
   }
 }
