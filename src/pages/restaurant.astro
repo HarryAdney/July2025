@@ -1,0 +1,378 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header-internal.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/global.css";
+---
+
+<Layout title="Restaurant | Foresters Arms Coverdale" description="Experience exceptional dining at The Foresters Arms restaurant in Carlton-in-Coverdale. Enjoy locally sourced Yorkshire cuisine, legendary ales, and warm hospitality in our historic Grade II listed pub.">
+  <Header />
+
+  <main>
+    <!-- Restaurant Hero Section -->
+    <section
+      class="relative flex items-center justify-center min-h-screen pt-20 overflow-hidden bg-cover bg-center bg-no-repeat"
+      style="background-image: url('/redesign/july2025/local-flavours-405x192.webp');"
+    >
+      <div class="absolute inset-0 bg-black/60"></div>
+      <div class="container relative z-10 px-6 mx-auto text-center">
+        <h1
+          class="mb-6 text-5xl font-black md:text-7xl font-display gold-accent animate-fadeInUp"
+        >
+          Exceptional Dining
+        </h1>
+        <p
+          class="max-w-3xl mx-auto mb-10 text-xl text-gray-300 md:text-2xl animate-fadeInUp delay-1"
+        >
+          Savor the finest Yorkshire flavors in our historic setting, where every meal tells a story of local tradition and culinary excellence.
+        </p>
+        <a
+          href="#menu"
+          class="px-8 py-3 text-lg font-semibold text-black transition-all duration-300 transform rounded-lg bg-gold-accent hover-gold-accent hover:scale-105 animate-fadeInUp delay-2 focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-opacity-50"
+        >
+          Explore Our Menu
+        </a>
+      </div>
+    </section>
+
+    <!-- Restaurant Philosophy Section -->
+    <section class="py-20 bg-gray-900 md:py-32">
+      <div class="container px-6 mx-auto">
+        <div class="grid items-center gap-12 md:grid-cols-2">
+          <div class="animate-fadeInUp">
+            <h2 class="mb-6 text-4xl md:text-5xl font-display gold-accent">
+              Our Culinary Philosophy
+            </h2>
+            <p class="mb-4 leading-relaxed text-gray-400">
+              At The Foresters Arms, we believe in celebrating the rich culinary heritage of Yorkshire while embracing modern techniques and presentation. Our kitchen sources the finest local ingredients from trusted suppliers across the Dales.
+            </p>
+            <p class="mb-4 leading-relaxed text-gray-400">
+              From hearty traditional dishes that warm the soul to contemporary creations that surprise and delight, every plate tells the story of our beautiful Yorkshire landscape and the passionate people who call it home.
+            </p>
+            <p class="leading-relaxed text-gray-400">
+              Whether you're seeking a satisfying meal after a day exploring the Dales or celebrating a special occasion, our restaurant provides the perfect setting for memorable dining experiences.
+            </p>
+          </div>
+          <div
+            class="w-full bg-gray-800 rounded-lg shadow-xl overflow-hidden animate-fadeInUp delay-1"
+          >
+            <img
+              src="/redesign/july2025/menu-item-1-720x384.webp"
+              alt="Beautifully presented local cuisine"
+              class="w-full h-64 md:h-80 lg:h-96 object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Highlights Section -->
+    <section id="menu" class="py-20 bg-black md:py-32">
+      <div class="container px-6 mx-auto">
+        <h2
+          class="mb-16 text-4xl text-center md:text-5xl font-display gold-accent animate-fadeInUp"
+        >
+          Menu Highlights
+        </h2>
+        
+        <!-- Menu Categories -->
+        <div class="grid gap-12 lg:grid-cols-2">
+          <!-- Starters -->
+          <div class="animate-fadeInUp delay-1">
+            <h3 class="mb-8 text-3xl font-display gold-accent">Starters</h3>
+            <div class="space-y-6">
+              <div class="p-6 rounded-lg glassmorphic-card">
+                <div class="flex justify-between items-start mb-2">
+                  <h4 class="text-xl font-semibold text-white">Yorkshire Black Pudding</h4>
+                  <span class="text-gold-accent font-semibold">£8.50</span>
+                </div>
+                <p class="text-gray-400">Served with crispy bacon, poached egg, and apple chutney</p>
+              </div>
+              
+              <div class="p-6 rounded-lg glassmorphic-card">
+                <div class="flex justify-between items-start mb-2">
+                  <h4 class="text-xl font-semibold text-white">Wensleydale Cheese Soufflé</h4>
+                  <span class="text-gold-accent font-semibold">£7.95</span>
+                </div>
+                <p class="text-gray-400">Light and airy soufflé with local honey and walnut salad</p>
+              </div>
+              
+              <div class="p-6 rounded-lg glassmorphic-card">
+                <div class="flex justify-between items-start mb-2">
+                  <h4 class="text-xl font-semibold text-white">Dales Smoked Trout</h4>
+                  <span class="text-gold-accent font-semibold">£9.25</span>
+                </div>
+                <p class="text-gray-400">With horseradish cream, beetroot, and sourdough toast</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Main Courses -->
+          <div class="animate-fadeInUp delay-2">
+            <h3 class="mb-8 text-3xl font-display gold-accent">Main Courses</h3>
+            <div class="space-y-6">
+              <div class="p-6 rounded-lg glassmorphic-card">
+                <div class="flex justify-between items-start mb-2">
+                  <h4 class="text-xl font-semibold text-white">Slow-Roasted Dales Lamb</h4>
+                  <span class="text-gold-accent font-semibold">£24.95</span>
+                </div>
+                <p class="text-gray-400">With rosemary jus, seasonal vegetables, and Yorkshire pudding</p>
+              </div>
+              
+              <div class="p-6 rounded-lg glassmorphic-card">
+                <div class="flex justify-between items-start mb-2">
+                  <h4 class="text-xl font-semibold text-white">Beer-Battered Fish & Chips</h4>
+                  <span class="text-gold-accent font-semibold">£16.50</span>
+                </div>
+                <p class="text-gray-400">Fresh haddock in Theakston's batter with triple-cooked chips</p>
+              </div>
+              
+              <div class="p-6 rounded-lg glassmorphic-card">
+                <div class="flex justify-between items-start mb-2">
+                  <h4 class="text-xl font-semibold text-white">Wild Mushroom Wellington</h4>
+                  <span class="text-gold-accent font-semibold">£18.95</span>
+                </div>
+                <p class="text-gray-400">Puff pastry filled with local mushrooms, herbs, and chestnuts</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="mt-16 animate-fadeInUp delay-3">
+          <h3 class="mb-8 text-3xl text-center font-display gold-accent">Desserts</h3>
+          <div class="grid gap-6 md:grid-cols-3">
+            <div class="p-6 rounded-lg glassmorphic-card">
+              <div class="flex justify-between items-start mb-2">
+                <h4 class="text-lg font-semibold text-white">Yorkshire Parkin</h4>
+                <span class="text-gold-accent font-semibold">£6.95</span>
+              </div>
+              <p class="text-gray-400">Traditional ginger cake with clotted cream</p>
+            </div>
+            
+            <div class="p-6 rounded-lg glassmorphic-card">
+              <div class="flex justify-between items-start mb-2">
+                <h4 class="text-lg font-semibold text-white">Sticky Toffee Pudding</h4>
+                <span class="text-gold-accent font-semibold">£7.50</span>
+              </div>
+              <p class="text-gray-400">With butterscotch sauce and vanilla ice cream</p>
+            </div>
+            
+            <div class="p-6 rounded-lg glassmorphic-card">
+              <div class="flex justify-between items-start mb-2">
+                <h4 class="text-lg font-semibold text-white">Wensleydale Cheesecake</h4>
+                <span class="text-gold-accent font-semibold">£6.75</span>
+              </div>
+              <p class="text-gray-400">With Yorkshire honey and oat biscuit base</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Drinks Section -->
+    <section class="py-20 bg-gray-900 md:py-32">
+      <div class="container px-6 mx-auto">
+        <h2
+          class="mb-16 text-4xl text-center md:text-5xl font-display gold-accent animate-fadeInUp"
+        >
+          Legendary Ales & Fine Wines
+        </h2>
+        
+        <div class="grid gap-12 lg:grid-cols-2">
+          <!-- Ales & Beers -->
+          <div class="animate-fadeInUp delay-1">
+            <div class="mb-8 overflow-hidden bg-gray-800 rounded-lg shadow-xl">
+              <img
+                src="/redesign/july2025/bar-527x192.webp"
+                alt="Our selection of ales and beers"
+                class="w-full h-48 object-cover"
+              />
+            </div>
+            <h3 class="mb-6 text-3xl font-display gold-accent">Ales & Beers</h3>
+            <div class="space-y-4">
+              <div class="p-4 rounded-lg glassmorphic-card">
+                <h4 class="text-lg font-semibold text-white mb-1">Theakston's Old Peculier</h4>
+                <p class="text-gray-400">Rich, dark ale with a distinctive character - a rare treat on keg</p>
+              </div>
+              
+              <div class="p-4 rounded-lg glassmorphic-card">
+                <h4 class="text-lg font-semibold text-white mb-1">Black Sheep Best Bitter</h4>
+                <p class="text-gray-400">Classic Yorkshire bitter with a hoppy finish</p>
+              </div>
+              
+              <div class="p-4 rounded-lg glassmorphic-card">
+                <h4 class="text-lg font-semibold text-white mb-1">Local Guest Ales</h4>
+                <p class="text-gray-400">Rotating selection from Yorkshire's finest breweries</p>
+              </div>
+              
+              <div class="p-4 rounded-lg glassmorphic-card">
+                <h4 class="text-lg font-semibold text-white mb-1">Premium Lagers</h4>
+                <p class="text-gray-400">Carefully selected international and craft lagers</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Wines & Spirits -->
+          <div class="animate-fadeInUp delay-2">
+            <div class="mb-8 overflow-hidden bg-gray-800 rounded-lg shadow-xl">
+              <div class="flex items-center justify-center w-full h-48 bg-gray-700">
+                <span class="text-xl text-gray-400">Wine Selection</span>
+              </div>
+            </div>
+            <h3 class="mb-6 text-3xl font-display gold-accent">Wines & Spirits</h3>
+            <div class="space-y-4">
+              <div class="p-4 rounded-lg glassmorphic-card">
+                <h4 class="text-lg font-semibold text-white mb-1">House Wines</h4>
+                <p class="text-gray-400">Carefully selected red, white, and rosé wines by the glass or bottle</p>
+              </div>
+              
+              <div class="p-4 rounded-lg glassmorphic-card">
+                <h4 class="text-lg font-semibold text-white mb-1">Premium Selection</h4>
+                <p class="text-gray-400">Fine wines from renowned regions for special occasions</p>
+              </div>
+              
+              <div class="p-4 rounded-lg glassmorphic-card">
+                <h4 class="text-lg font-semibold text-white mb-1">Yorkshire Spirits</h4>
+                <p class="text-gray-400">Local gins, whiskies, and liqueurs celebrating Yorkshire craftsmanship</p>
+              </div>
+              
+              <div class="p-4 rounded-lg glassmorphic-card">
+                <h4 class="text-lg font-semibold text-white mb-1">Classic Cocktails</h4>
+                <p class="text-gray-400">Expertly crafted cocktails using premium spirits</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Opening Hours & Reservations -->
+    <section class="py-20 bg-black md:py-32">
+      <div class="container px-6 mx-auto">
+        <h2
+          class="mb-16 text-4xl text-center md:text-5xl font-display gold-accent animate-fadeInUp"
+        >
+          Dining Hours & Reservations
+        </h2>
+        
+        <div class="grid gap-12 lg:grid-cols-2">
+          <!-- Opening Hours -->
+          <div class="animate-fadeInUp delay-1">
+            <h3 class="mb-8 text-3xl font-display gold-accent">Restaurant Hours</h3>
+            <div class="space-y-6">
+              <div class="p-6 rounded-lg glassmorphic-card">
+                <h4 class="mb-4 text-xl font-semibold gold-accent">Food Service Times:</h4>
+                <ul class="space-y-2 text-gray-400">
+                  <li class="flex justify-between">
+                    <span>Monday:</span>
+                    <span class="text-red-400">No food service</span>
+                  </li>
+                  <li class="flex justify-between">
+                    <span>Tuesday - Wednesday:</span>
+                    <span>5:00pm - 8:30pm</span>
+                  </li>
+                  <li class="flex justify-between">
+                    <span>Thursday:</span>
+                    <span class="text-sm">Ramsay's Fish & Chips van (6:30pm - 7:20pm)</span>
+                  </li>
+                  <li class="flex justify-between">
+                    <span>Friday - Saturday:</span>
+                    <span>12:00pm - 2:30pm & 5:00pm - 8:30pm</span>
+                  </li>
+                  <li class="flex justify-between">
+                    <span>Sunday:</span>
+                    <span>12:00pm - 4:00pm</span>
+                  </li>
+                </ul>
+              </div>
+              
+              <div class="p-6 rounded-lg glassmorphic-card">
+                <h4 class="mb-4 text-xl font-semibold gold-accent">Bar Hours:</h4>
+                <ul class="space-y-2 text-gray-400">
+                  <li class="flex justify-between">
+                    <span>Monday - Thursday:</span>
+                    <span>5:00pm - Late</span>
+                  </li>
+                  <li class="flex justify-between">
+                    <span>Friday - Sunday:</span>
+                    <span>12:00pm - Late</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reservations -->
+          <div class="animate-fadeInUp delay-2">
+            <h3 class="mb-8 text-3xl font-display gold-accent">Make a Reservation</h3>
+            <div class="space-y-6">
+              <div class="p-6 rounded-lg glassmorphic-card">
+                <h4 class="mb-4 text-xl font-semibold text-white">Book Your Table</h4>
+                <p class="mb-4 text-gray-400">
+                  We recommend booking in advance, especially for weekend dining and Sunday lunch. Walk-ins are welcome subject to availability.
+                </p>
+                <div class="space-y-3">
+                  <div class="flex items-center">
+                    <span class="mr-3 gold-accent">📞</span>
+                    <a href="tel:01969640272" class="text-white hover:text-gold-accent transition-colors">
+                      01969 640272
+                    </a>
+                  </div>
+                  <div class="flex items-center">
+                    <span class="mr-3 gold-accent">✉️</span>
+                    <a href="mailto:enquiries@forestersarmscoverdale.com" class="text-white hover:text-gold-accent transition-colors">
+                      enquiries@forestersarmscoverdale.com
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="p-6 rounded-lg glassmorphic-card">
+                <h4 class="mb-4 text-xl font-semibold text-white">Special Dietary Requirements</h4>
+                <p class="text-gray-400">
+                  We're happy to accommodate vegetarian, vegan, and gluten-free dietary requirements. Please let us know when booking so we can ensure our kitchen is prepared to create something special for you.
+                </p>
+              </div>
+              
+              <div class="p-6 rounded-lg glassmorphic-card">
+                <h4 class="mb-4 text-xl font-semibold text-white">Private Dining</h4>
+                <p class="text-gray-400">
+                  Our historic Long Room is available for private dining events, celebrations, and business meetings. Contact us to discuss your requirements and create a memorable experience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20 bg-gray-900">
+      <div class="container px-6 mx-auto text-center">
+        <h2 class="mb-6 text-4xl font-display gold-accent animate-fadeInUp">
+          Ready to Dine With Us?
+        </h2>
+        <p class="max-w-2xl mx-auto mb-8 text-xl text-gray-400 animate-fadeInUp delay-1">
+          Experience the finest Yorkshire hospitality and cuisine in our historic setting. Book your table today or simply drop by for a drink at the bar.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-fadeInUp delay-2">
+          <a
+            href="tel:01969640272"
+            class="px-8 py-3 text-lg font-semibold text-black transition-all duration-300 transform rounded-lg bg-gold-accent hover-gold-accent hover:scale-105 focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-opacity-50"
+          >
+            Call to Book
+          </a>
+          <a
+            href="mailto:enquiries@forestersarmscoverdale.com"
+            class="px-8 py-3 text-lg font-semibold transition-all duration-300 transform rounded-lg border-2 border-gold-accent gold-accent hover:bg-gold-accent hover:text-black focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-opacity-50"
+          >
+            Email Us
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
