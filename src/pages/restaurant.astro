@@ -18,7 +18,7 @@ import "../styles/global.css";
       <div class="container relative z-10 px-6 mx-auto text-center">
         <h1
           class="mb-6 text-5xl font-black md:text-7xl font-display gold-accent animate-fadeInUp"
-        >
+        >;
           Exceptional Dining
         </h1>
         <p
@@ -375,4 +375,13 @@ import "../styles/global.css";
   </main>
 
   <Footer />
+
+  <style>
+    @media (min-width: 1080px) {
+      section > .container {
+        max-width: 80%;
+        margin: 0 auto;
+      }
+    }
+  </style>
 </Layout>

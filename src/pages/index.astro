@@ -262,7 +262,7 @@ import "../styles/global.css";
     </section>
 
     <!-- Testimonials Section -->
-    <section class="py-20 bg-black md:py-32">
+    <section id="testimonials" class="py-20 bg-black md:py-32">
       <div class="container px-6 mx-auto">
         <h2
           class="mb-16 text-4xl text-center md:text-5xl font-display gold-accent animate-fadeInUp"
@@ -402,4 +402,17 @@ import "../styles/global.css";
   </main>
 
   <Footer />
+
+  <style>
+    @media (min-width: 1080px) {
+      #about-us > .container,
+      #rooms > .container,
+      #restaurant > .container,
+      #testimonials > .container,
+      #info > .container {
+        max-width: 80%;
+        margin: 0 auto;
+      }
+    }
+  </style>
 </Layout>
