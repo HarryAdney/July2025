@@ -270,3 +270,10 @@ section {
     background-attachment: fixed;
   }
 }
+
+/* Gallery image width for desktop */
+@media (min-width: 768px) {
+  .gallery-image {
+    width: 300px;
+  }
+}

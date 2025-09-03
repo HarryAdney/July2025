@@ -2,7 +2,11 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header-internal.astro";
 import Footer from "../components/Footer.astro";
+import { Image } from "astro:assets";
+import { getGalleryImages } from "../utils/gallery";
 import "../styles/global.css";
+
+const images = await getGalleryImages();
 ---
 
 <Layout title="Restaurant | Foresters Arms Coverdale" description="Experience exceptional dining at The Foresters Arms restaurant in Carlton-in-Coverdale. Enjoy locally sourced Yorkshire cuisine, legendary ales, and warm hospitality in our historic Grade II listed pub.">
@@ -57,7 +61,7 @@ import "../styles/global.css";
             class="w-full bg-gray-800 rounded-lg shadow-xl overflow-hidden animate-fadeInUp delay-1"
           >
             <img
-              src="/redesign/july2025/menu-item-1-720x384.webp"
+              src="/redesign/july2025/slow-cooked-beef.webp"
               alt="Beautifully presented local cuisine"
               class="w-full h-64 md:h-80 lg:h-96 object-cover"
             />
@@ -65,6 +69,28 @@ import "../styles/global.css";
         </div>
       </div>
     </section>
+
+    <!-- Food & Drink Gallery Section -->
+    <section class="py-20 bg-gray-800 md:py-32">
+      <div class="container px-6 mx-auto">
+        <h2 class="mb-16 text-4xl text-center md:text-5xl font-display gold-accent animate-fadeInUp">Our Food & Drink Gallery</h2>
+        <div class="mx-auto container my-8 sm:columns-2 md:columns-3 lg:columns-4 xl:columns-5 max-w-[1440px]">
+          {
+            images.slice(0, 12).map((image) => (
+              <Image
+                src={image}
+                alt="Food and drink image"
+                format="avif"
+                quality={50}
+                class="gallery-image rounded-sm mb-4 border border-transparent hover:border-gray-300 transition-all duration-300 ease-in-out hover:shadow-lg"
+                loading="lazy"
+              />
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
 
     <!-- Combined Menu & Dining Information Section -->
     <section id="menu" class="py-20 bg-black md:py-32">
@@ -141,7 +167,7 @@ import "../styles/global.css";
 
                 </div>
               </div>
-<div class="p-6 rounded-lg glassmorphic-card">
+              <div class="p-6 rounded-lg glassmorphic-card">
                 <h4 class="mb-4 text-xl font-semibold text-white">Special Dietary Requirements</h4>
                 <p class="text-gray-400">
                   We're happy to accommodate vegetarian, vegan, and gluten-free dietary requirements. Please let us know when booking so we can ensure our kitchen is prepared to create something special for you.
@@ -169,8 +195,8 @@ import "../styles/global.css";
                     <span>5:00pm - 8:30pm</span>
                   </li>
                   <li class="flex justify-between">
-                    <span>Thursday:</span>
-                    <span class="text-sm">Ramsay's Fish & Chips van (6:30pm - 7:20pm)</span>
+                    <span>Thursday <span class="text-sm">(Ramsay's Fish & Chips van)</span>:</span>
+                    <span>(6:30pm - 7:20pm)</span>
                   </li>
                   <li class="flex justify-between">
                     <span>Friday - Saturday:</span>
@@ -199,7 +225,7 @@ import "../styles/global.css";
             </div>
 
             <!-- Reservations -->
-            <h3 class="mb-8 text-3xl font-display gold-accent">Make a Reservation</h3>
+            <!-- <h3 class="mb-8 text-3xl font-display gold-accent">Make a Reservation</h3>
             <div class="space-y-6">
               <div class="p-6 rounded-lg glassmorphic-card">
                 <h4 class="mb-4 text-xl font-semibold text-white">Book Your Table</h4>
@@ -223,7 +249,7 @@ import "../styles/global.css";
               </div>
 
 
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
