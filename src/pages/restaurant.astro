@@ -66,203 +66,99 @@ import "../styles/global.css";
       </div>
     </section>
 
-    <!-- Menu Highlights Section -->
+    <!-- Combined Menu & Dining Information Section -->
     <section id="menu" class="py-20 bg-black md:py-32">
       <div class="container px-6 mx-auto">
         <h2
           class="mb-16 text-4xl text-center md:text-5xl font-display gold-accent animate-fadeInUp"
         >
-          Menu Highlights
+          Menu & Dining Information
         </h2>
 
-        <!-- Menu Categories -->
         <div class="grid gap-12 lg:grid-cols-2">
-          <!-- Starters -->
+          <!-- Left Column: Menu -->
           <div class="animate-fadeInUp delay-1">
-            <h3 class="mb-8 text-3xl font-display gold-accent">Starters</h3>
-            <div class="space-y-6">
-              <div class="p-6 rounded-lg glassmorphic-card">
-                <div class="flex justify-between items-start mb-2">
-                  <h4 class="text-xl font-semibold text-white">Yorkshire Black Pudding</h4>
-                  <span class="text-gold-accent font-semibold">£8.50</span>
+            <h3 class="mb-8 text-3xl font-display gold-accent">Example Menu</h3>
+
+            <!-- Menu Categories -->
+            <div class="space-y-8 p-4 rounded-lg glassmorphic-card">
+              <!-- Starters -->
+              <div>
+                <h4 class="pr-4 pl-4 mb-2 text-2xl font-display gold-accent">Starters</h4>
+                <div class="">
+                  <div class="pr-4 pl-4 pb-2">
+                    <div class="flex justify-between">
+                      <h5 class="text-lg font-semibold text-white">Potato & Watercress Soup</h5>
+                      <span class="text-gold-accent font-semibold">£6</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">A comforting classic soup made with fresh local ingredients</p>
+                  </div>
+
+                  <div class="pr-4 pl-4 pb-2">
+                    <div class="flex justify-between">
+                      <h5 class="text-lg font-semibold text-white">Wild Boar Terrine with Toast</h5>
+                      <span class="text-gold-accent font-semibold">£7</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Served with toasted bread for a perfect starter</p>
+                  </div>
+
+                  <div class="pr-4 pl-4 pb-2">
+                    <div class="flex justify-between">
+                      <h5 class="text-lg font-semibold text-white">Smoked Mackerel Salad with Apple & Horseradish Cream</h5>
+                      <span class="text-gold-accent font-semibold">£7</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Fresh salad with smoked fish and creamy horseradish</p>
+                  </div>
                 </div>
-                <p class="text-gray-400">Served with crispy bacon, poached egg, and apple chutney</p>
               </div>
 
-              <div class="p-6 rounded-lg glassmorphic-card">
-                <div class="flex justify-between items-start mb-2">
-                  <h4 class="text-xl font-semibold text-white">Wensleydale Cheese Soufflé</h4>
-                  <span class="text-gold-accent font-semibold">£7.95</span>
-                </div>
-                <p class="text-gray-400">Light and airy soufflé with local honey and walnut salad</p>
-              </div>
+              <!-- Main Courses -->
+              <div>
+                <h4 class="pr-4 pl-4 mb-2 text-2xl font-display gold-accent">Main Courses</h4>
+                <div>
+                  <div class="pr-4 pl-4 pb-2">
+                    <div class="flex justify-between">
+                      <h5 class="text-lg font-semibold text-white">10 Hour Slow Cooked Beef Short Rib (GF)</h5>
+                      <span class="text-gold-accent font-semibold">£22</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Tender beef slow-cooked to perfection with Honey Glaze on a Celeriac Fondant</p>
+                  </div>
+                  <div class="pr-4 pl-4 pb-2">
+                    <div class="flex justify-between">
+                      <h5 class="text-lg font-semibold text-white">Pan Fried Pork Fillet with Sage &amp; Black Pepper Crumb (GFA)</h5>
+                      <span class="text-gold-accent font-semibold">£18</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Served on a bed of mash with a white wine and mustard cream sauce</p>
+                  </div>
 
-              <div class="p-6 rounded-lg glassmorphic-card">
-                <div class="flex justify-between items-start mb-2">
-                  <h4 class="text-xl font-semibold text-white">Dales Smoked Trout</h4>
-                  <span class="text-gold-accent font-semibold">£9.25</span>
+                  <div class="pr-4 pl-4 pb-2">
+                    <div class="flex justify-between">
+                      <h5 class="text-lg font-semibold text-white">Pan Fried Chicken Breast </h5>
+                      <span class="text-gold-accent font-semibold">£17</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Succulent chicken served with Creamy Mash & a Leek & Stilton Sauce</p>
+                  </div>
+
                 </div>
-                <p class="text-gray-400">With horseradish cream, beetroot, and sourdough toast</p>
+              </div>
+<div class="p-6 rounded-lg glassmorphic-card">
+                <h4 class="mb-4 text-xl font-semibold text-white">Special Dietary Requirements</h4>
+                <p class="text-gray-400">
+                  We're happy to accommodate vegetarian, vegan, and gluten-free dietary requirements. Please let us know when booking so we can ensure our kitchen is prepared to create something special for you.
+                </p>
               </div>
             </div>
+
+
           </div>
 
-          <!-- Main Courses -->
+          <!-- Right Column: Hours and Reservations -->
           <div class="animate-fadeInUp delay-2">
-            <h3 class="mb-8 text-3xl font-display gold-accent">Main Courses</h3>
+            <!-- Opening Hours -->
+            <h3 class="mb-8 text-3xl font-display gold-accent">Opening Times</h3>
             <div class="space-y-6">
               <div class="p-6 rounded-lg glassmorphic-card">
-                <div class="flex justify-between items-start mb-2">
-                  <h4 class="text-xl font-semibold text-white">Slow-Roasted Dales Lamb</h4>
-                  <span class="text-gold-accent font-semibold">£24.95</span>
-                </div>
-                <p class="text-gray-400">With rosemary jus, seasonal vegetables, and Yorkshire pudding</p>
-              </div>
-
-              <div class="p-6 rounded-lg glassmorphic-card">
-                <div class="flex justify-between items-start mb-2">
-                  <h4 class="text-xl font-semibold text-white">Beer-Battered Fish & Chips</h4>
-                  <span class="text-gold-accent font-semibold">£16.50</span>
-                </div>
-                <p class="text-gray-400">Fresh haddock in Theakston's batter with triple-cooked chips</p>
-              </div>
-
-              <div class="p-6 rounded-lg glassmorphic-card">
-                <div class="flex justify-between items-start mb-2">
-                  <h4 class="text-xl font-semibold text-white">Wild Mushroom Wellington</h4>
-                  <span class="text-gold-accent font-semibold">£18.95</span>
-                </div>
-                <p class="text-gray-400">Puff pastry filled with local mushrooms, herbs, and chestnuts</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Desserts -->
-        <div class="mt-16 animate-fadeInUp delay-3">
-          <h3 class="mb-8 text-3xl text-center font-display gold-accent">Desserts</h3>
-          <div class="grid gap-6 md:grid-cols-3">
-            <div class="p-6 rounded-lg glassmorphic-card">
-              <div class="flex justify-between items-start mb-2">
-                <h4 class="text-lg font-semibold text-white">Yorkshire Parkin</h4>
-                <span class="text-gold-accent font-semibold">£6.95</span>
-              </div>
-              <p class="text-gray-400">Traditional ginger cake with clotted cream</p>
-            </div>
-
-            <div class="p-6 rounded-lg glassmorphic-card">
-              <div class="flex justify-between items-start mb-2">
-                <h4 class="text-lg font-semibold text-white">Sticky Toffee Pudding</h4>
-                <span class="text-gold-accent font-semibold">£7.50</span>
-              </div>
-              <p class="text-gray-400">With butterscotch sauce and vanilla ice cream</p>
-            </div>
-
-            <div class="p-6 rounded-lg glassmorphic-card">
-              <div class="flex justify-between items-start mb-2">
-                <h4 class="text-lg font-semibold text-white">Wensleydale Cheesecake</h4>
-                <span class="text-gold-accent font-semibold">£6.75</span>
-              </div>
-              <p class="text-gray-400">With Yorkshire honey and oat biscuit base</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Drinks Section -->
-    <section class="py-20 bg-gray-900 md:py-32">
-      <div class="container px-6 mx-auto">
-        <h2
-          class="mb-16 text-4xl text-center md:text-5xl font-display gold-accent animate-fadeInUp"
-        >
-          Legendary Ales & Fine Wines
-        </h2>
-
-        <div class="grid gap-12 lg:grid-cols-2">
-          <!-- Ales & Beers -->
-          <div class="animate-fadeInUp delay-1">
-            <div class="mb-8 overflow-hidden bg-gray-800 rounded-lg shadow-xl">
-              <img
-                src="/redesign/july2025/bar-527x192.webp"
-                alt="Our selection of ales and beers"
-                class="w-full h-48 object-cover"
-              />
-            </div>
-            <h3 class="mb-6 text-3xl font-display gold-accent">Ales & Beers</h3>
-            <div class="space-y-4">
-              <div class="p-4 rounded-lg glassmorphic-card">
-                <h4 class="text-lg font-semibold text-white mb-1">Theakston's Old Peculier</h4>
-                <p class="text-gray-400">Rich, dark ale with a distinctive character - a rare treat on keg</p>
-              </div>
-
-              <div class="p-4 rounded-lg glassmorphic-card">
-                <h4 class="text-lg font-semibold text-white mb-1">Black Sheep Best Bitter</h4>
-                <p class="text-gray-400">Classic Yorkshire bitter with a hoppy finish</p>
-              </div>
-
-              <div class="p-4 rounded-lg glassmorphic-card">
-                <h4 class="text-lg font-semibold text-white mb-1">Local Guest Ales</h4>
-                <p class="text-gray-400">Rotating selection from Yorkshire's finest breweries</p>
-              </div>
-
-              <div class="p-4 rounded-lg glassmorphic-card">
-                <h4 class="text-lg font-semibold text-white mb-1">Premium Lagers</h4>
-                <p class="text-gray-400">Carefully selected international and craft lagers</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Wines & Spirits -->
-          <div class="animate-fadeInUp delay-2">
-            <div class="mb-8 overflow-hidden bg-gray-800 rounded-lg shadow-xl">
-              <div class="flex items-center justify-center w-full h-48 bg-gray-700">
-                <span class="text-xl text-gray-400">Wine Selection</span>
-              </div>
-            </div>
-            <h3 class="mb-6 text-3xl font-display gold-accent">Wines & Spirits</h3>
-            <div class="space-y-4">
-              <div class="p-4 rounded-lg glassmorphic-card">
-                <h4 class="text-lg font-semibold text-white mb-1">House Wines</h4>
-                <p class="text-gray-400">Carefully selected red, white, and rosé wines by the glass or bottle</p>
-              </div>
-
-              <div class="p-4 rounded-lg glassmorphic-card">
-                <h4 class="text-lg font-semibold text-white mb-1">Premium Selection</h4>
-                <p class="text-gray-400">Fine wines from renowned regions for special occasions</p>
-              </div>
-
-              <div class="p-4 rounded-lg glassmorphic-card">
-                <h4 class="text-lg font-semibold text-white mb-1">Yorkshire Spirits</h4>
-                <p class="text-gray-400">Local gins, whiskies, and liqueurs celebrating Yorkshire craftsmanship</p>
-              </div>
-
-              <div class="p-4 rounded-lg glassmorphic-card">
-                <h4 class="text-lg font-semibold text-white mb-1">Classic Cocktails</h4>
-                <p class="text-gray-400">Expertly crafted cocktails using premium spirits</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Opening Hours & Reservations -->
-    <section class="py-20 bg-black md:py-32">
-      <div class="container px-6 mx-auto">
-        <h2
-          class="mb-16 text-4xl text-center md:text-5xl font-display gold-accent animate-fadeInUp"
-        >
-          Dining Hours & Reservations
-        </h2>
-
-        <div class="grid gap-12 lg:grid-cols-2">
-          <!-- Opening Hours -->
-          <div class="animate-fadeInUp delay-1">
-            <h3 class="mb-8 text-3xl font-display gold-accent">Restaurant Hours</h3>
-            <div class="space-y-6">
-              <div class="p-6 rounded-lg glassmorphic-card">
-                <h4 class="mb-4 text-xl font-semibold gold-accent">Food Service Times:</h4>
+                <h4 class="mb-4 text-xl font-display gold-accent">Food Service Times:</h4>
                 <ul class="space-y-2 text-gray-400">
                   <li class="flex justify-between">
                     <span>Monday:</span>
@@ -288,7 +184,7 @@ import "../styles/global.css";
               </div>
 
               <div class="p-6 rounded-lg glassmorphic-card">
-                <h4 class="mb-4 text-xl font-semibold gold-accent">Bar Hours:</h4>
+                <h4 class="mb-4 text-xl font-display gold-accent">Bar Hours:</h4>
                 <ul class="space-y-2 text-gray-400">
                   <li class="flex justify-between">
                     <span>Monday - Thursday:</span>
@@ -301,10 +197,8 @@ import "../styles/global.css";
                 </ul>
               </div>
             </div>
-          </div>
 
-          <!-- Reservations -->
-          <div class="animate-fadeInUp delay-2">
+            <!-- Reservations -->
             <h3 class="mb-8 text-3xl font-display gold-accent">Make a Reservation</h3>
             <div class="space-y-6">
               <div class="p-6 rounded-lg glassmorphic-card">
@@ -328,19 +222,7 @@ import "../styles/global.css";
                 </div>
               </div>
 
-              <div class="p-6 rounded-lg glassmorphic-card">
-                <h4 class="mb-4 text-xl font-semibold text-white">Special Dietary Requirements</h4>
-                <p class="text-gray-400">
-                  We're happy to accommodate vegetarian, vegan, and gluten-free dietary requirements. Please let us know when booking so we can ensure our kitchen is prepared to create something special for you.
-                </p>
-              </div>
 
-              <div class="p-6 rounded-lg glassmorphic-card">
-                <h4 class="mb-4 text-xl font-semibold text-white">Private Dining</h4>
-                <p class="text-gray-400">
-                  Our historic Long Room is available for private dining events, celebrations, and business meetings. Contact us to discuss your requirements and create a memorable experience.
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -348,7 +230,7 @@ import "../styles/global.css";
     </section>
 
     <!-- Call to Action -->
-    <section class="py-20 bg-gray-900">
+    <!-- <section class="py-20 bg-gray-900">
       <div class="container px-6 mx-auto text-center">
         <h2 class="mb-6 text-4xl font-display gold-accent animate-fadeInUp">
           Ready to Dine With Us?
@@ -371,7 +253,7 @@ import "../styles/global.css";
           </a>
         </div>
       </div>
-    </section>
+    </section> -->
   </main>
 
   <Footer />
