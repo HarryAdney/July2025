@@ -14,6 +14,7 @@ Successfully migrated the gallery data storage system from 16 individual markdow
 ### New Architecture
 
 #### Files Created
+
 - `src/types/gallery.ts` - TypeScript type definitions
 - `src/schemas/gallery.ts` - Zod validation schemas
 - `src/data/gallery.json` - Centralized gallery data (608 lines)
@@ -23,6 +24,7 @@ Successfully migrated the gallery data storage system from 16 individual markdow
 - `scripts/migrate-simple.cjs` - Migration script
 
 #### Files Updated
+
 - `src/pages/restaurant.astro` - Updated to use JSON-based system
 - `package.json` - Added gallery management scripts
 
@@ -46,6 +48,7 @@ Successfully migrated the gallery data storage system from 16 individual markdow
 ### New Features
 
 #### Enhanced Data Structure
+
 ```json
 {
   "metadata": {
@@ -70,6 +73,7 @@ Successfully migrated the gallery data storage system from 16 individual markdow
 ```
 
 #### Improved Components
+
 - **Type Safety**: Full TypeScript support with IntelliSense
 - **Better Performance**: Single data load with caching
 - **Enhanced UX**: Improved hover effects and responsive design
@@ -96,16 +100,19 @@ npm run gallery:rollback
 If you need to rollback to the markdown system:
 
 1. **Restore from backup**:
+
    ```bash
    cp backups/migration-2025-09-05T10-24-03-547Z/*.md src/content/photos/
    ```
 
 2. **Remove JSON file**:
+
    ```bash
    rm src/data/gallery.json
    ```
 
 3. **Revert components**:
+
    ```bash
    git checkout backup/pre-json-migration -- src/pages/restaurant.astro
    ```
@@ -121,6 +128,7 @@ If you need to rollback to the markdown system:
 ### Content Management
 
 The new system supports:
+
 - **Bulk operations**: Update multiple items at once
 - **Programmatic updates**: Easy integration with external systems
 - **Data validation**: Automatic schema validation
