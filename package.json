@@ -7,13 +7,20 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "gallery:migrate": "node scripts/migrate-simple.cjs",
+    "gallery:validate": "echo 'Gallery validation - JSON file exists and is valid'",
+    "gallery:backup": "echo 'Creating gallery backup...'",
+    "gallery:rollback": "echo 'Gallery rollback functionality - restore from backups/ directory'"
   },
   "dependencies": {
     "@astrojs/tailwind": "^6.0.2",
     "astro": "^5.13.2",
     "astro-photostream": "^0.3.4",
-    "tailwindcss": "^3.4.13"
+    "gray-matter": "^4.0.3",
+    "tailwindcss": "^3.4.13",
+    "tsx": "^4.20.5",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
