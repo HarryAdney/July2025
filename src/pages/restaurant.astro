@@ -90,7 +90,7 @@ const galleryDataForJS = galleryItems.map(item => ({
     </section>
 
     <!-- Image Modal -->
-    <div id="imageModal" class="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center p-4">
+    <div id="imageModal" class="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center p-4 hidden">
       <div class="relative max-w-4xl max-h-full">
         <button id="closeModal" class="absolute -top-12 right-0 text-white text-4xl hover:text-gold-accent transition-colors">
           ×
@@ -295,6 +295,7 @@ const galleryDataForJS = galleryItems.map(item => ({
   <Footer />
 
   <style>
+
     @media (min-width: 1080px) {
       section > .container {
         max-width: 80%;
