@@ -7,7 +7,7 @@
   },
   "gallery": {
     "config": {
-      "defaultImagePath": "/redesign/july2025/gallery/",
+      "defaultImagePath": "./gallery/",
       "supportedFormats": [
         "webp",
         "jpg",
@@ -185,8 +185,8 @@
       },
       {
         "id": "slide5",
-        "title": "This is Gallery image 5",
-        "description": "This is Gallery image 5",
+        "title": "This is definitely Gallery image 5",
+        "description": "This is the description for Gallery image 5",
         "slug": "slide5",
         "images": {
           "thumbnail": {

@@ -29,19 +29,15 @@ const imageDimensions = {
 };
 
 const dimensions = imageDimensions[size];
-const imagePath = `/redesign/july2025/gallery/${item.images.thumbnail.src}`;
+// Images are in public/gallery, so we reference them directly
+const imagePath = `/gallery/${item.images.thumbnail.src}`;
 
-const optimizedImage = await getImage({
-  src: imagePath,
-  width: dimensions.width,
-  height: dimensions.height,
-  fit: 'cover',
-  format: 'webp'
-}).catch(() => null);
+// For public images, we don't use getImage optimization, just direct paths
+const optimizedImage = null;
 ---
 
 <article class={`gallery-card ${sizeClasses[size]} ${className}`} data-item-id={item.id}>
-  <a href={`/photos/${item.slug}`} class="gallery-card__link">
+  <a href={`./gallery/${item.slug}`} class="gallery-card__link">
     <div class="gallery-card__image-container">
       {optimizedImage ? (
         <img

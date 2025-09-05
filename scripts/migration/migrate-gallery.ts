@@ -86,7 +86,7 @@ async function migrateGallery(): Promise<void> {
       },
       gallery: {
         config: {
-          defaultImagePath: '/redesign/july2025/gallery/',
+          defaultImagePath: '/gallery/',
           supportedFormats: ['webp', 'jpg', 'png'],
           imageSizes: {
             thumbnail: { width: 400, height: 300 },

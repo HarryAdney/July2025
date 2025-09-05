@@ -6,5 +6,9 @@ import photostream from 'astro-photostream';
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), photostream()],
-  base: '/redesign/july2025',
+  output: 'static',
+  build: {
+    assets: 'assets'
+  },
+  base: '/'
 });
