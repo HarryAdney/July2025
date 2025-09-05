@@ -1,0 +1,608 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-05T10:24:03.830Z",
+    "totalItems": 16,
+    "schema": "https://forestersarms.com/schemas/gallery-v1.json"
+  },
+  "gallery": {
+    "config": {
+      "defaultImagePath": "/redesign/july2025/gallery/",
+      "supportedFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "imageSizes": {
+        "thumbnail": {
+          "width": 400,
+          "height": 300
+        },
+        "large": {
+          "width": 1200,
+          "height": 800
+        }
+      }
+    },
+    "categories": [
+      {
+        "id": "restaurant",
+        "name": "Restaurant",
+        "description": "Food and dining experiences"
+      },
+      {
+        "id": "food",
+        "name": "Food",
+        "description": "Culinary creations and dishes"
+      },
+      {
+        "id": "drink",
+        "name": "Drinks",
+        "description": "Beverages and bar offerings"
+      }
+    ],
+    "items": [
+      {
+        "id": "slide1",
+        "title": "This is some kind of pork dish",
+        "description": "This is some kind of pork dish",
+        "slug": "slide1",
+        "images": {
+          "thumbnail": {
+            "src": "slide1.webp",
+            "alt": "This is some kind of pork dish",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide1-large.webp",
+            "alt": "This is some kind of pork dish",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "2025-09-03T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 1,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "pork",
+            "dish"
+          ]
+        }
+      },
+      {
+        "id": "slide2",
+        "title": "This is Gallery image 2",
+        "description": "This is the second image in the gallery",
+        "slug": "slide2",
+        "images": {
+          "thumbnail": {
+            "src": "slide2.webp",
+            "alt": "This is Gallery image number 2",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide2-large.webp",
+            "alt": "This is Gallery image number 2",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "2025-07-03T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 2,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "gallery",
+            "image",
+            "second"
+          ]
+        }
+      },
+      {
+        "id": "slide3",
+        "title": "This is Gallery image 3",
+        "description": "This is Gallery image 3",
+        "slug": "slide3",
+        "images": {
+          "thumbnail": {
+            "src": "slide3.webp",
+            "alt": "This is Gallery image 3",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide3-large.webp",
+            "alt": "This is Gallery image 3",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "1963-05-15T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 3,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "gallery",
+            "image"
+          ]
+        }
+      },
+      {
+        "id": "slide4",
+        "title": "This is Gallery image 4",
+        "description": "This is Gallery image 4",
+        "slug": "slide4",
+        "images": {
+          "thumbnail": {
+            "src": "slide4.webp",
+            "alt": "This is Gallery image 4",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide4-large.webp",
+            "alt": "This is Gallery image 4",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "2023-09-03T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 4,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "gallery",
+            "image"
+          ]
+        }
+      },
+      {
+        "id": "slide5",
+        "title": "This is Gallery image 5",
+        "description": "This is Gallery image 5",
+        "slug": "slide5",
+        "images": {
+          "thumbnail": {
+            "src": "slide5.webp",
+            "alt": "This is Gallery image 5",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide5-large.webp",
+            "alt": "This is Gallery image 5",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "2023-09-03T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 5,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "gallery",
+            "image"
+          ]
+        }
+      },
+      {
+        "id": "slide6",
+        "title": "This is Gallery image 6",
+        "description": "This is Gallery image 6",
+        "slug": "slide6",
+        "images": {
+          "thumbnail": {
+            "src": "slide6.webp",
+            "alt": "This is Gallery image 6",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide6-large.webp",
+            "alt": "This is Gallery image 6",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "2023-09-03T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 6,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "gallery",
+            "image"
+          ]
+        }
+      },
+      {
+        "id": "slide7",
+        "title": "This is Gallery image 7",
+        "description": "This is Gallery image 7",
+        "slug": "slide7",
+        "images": {
+          "thumbnail": {
+            "src": "slide7.webp",
+            "alt": "This is Gallery image 7",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide7-large.webp",
+            "alt": "This is Gallery image 7",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "2023-09-03T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 7,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "gallery",
+            "image"
+          ]
+        }
+      },
+      {
+        "id": "slide8",
+        "title": "This is Gallery image 8",
+        "description": "This is Gallery image 8",
+        "slug": "slide8",
+        "images": {
+          "thumbnail": {
+            "src": "slide8.webp",
+            "alt": "This is Gallery image 8",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide8-large.webp",
+            "alt": "This is Gallery image 8",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "2023-09-03T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 8,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "gallery",
+            "image"
+          ]
+        }
+      },
+      {
+        "id": "slide9",
+        "title": "This is Gallery image 9",
+        "description": "This is Gallery image 9",
+        "slug": "slide9",
+        "images": {
+          "thumbnail": {
+            "src": "slide9.webp",
+            "alt": "This is Gallery image 9",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide9-large.webp",
+            "alt": "This is Gallery image 9",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "2023-09-03T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 9,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "gallery",
+            "image"
+          ]
+        }
+      },
+      {
+        "id": "slide10",
+        "title": "This is Gallery image 10",
+        "description": "This is Gallery image 10",
+        "slug": "slide10",
+        "images": {
+          "thumbnail": {
+            "src": "slide10.webp",
+            "alt": "This is Gallery image 10",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide10-large.webp",
+            "alt": "This is Gallery image 10",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "2024-07-30T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 10,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "gallery",
+            "image"
+          ]
+        }
+      },
+      {
+        "id": "slide11",
+        "title": "This is Gallery image 11",
+        "description": "This is Gallery image 11",
+        "slug": "slide11",
+        "images": {
+          "thumbnail": {
+            "src": "slide11.webp",
+            "alt": "This is Gallery image 11",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide11-large.webp",
+            "alt": "This is Gallery image 11",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "2023-09-03T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 11,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "gallery",
+            "image"
+          ]
+        }
+      },
+      {
+        "id": "slide12",
+        "title": "This is Gallery image 12",
+        "description": "This is Gallery image 12",
+        "slug": "slide12",
+        "images": {
+          "thumbnail": {
+            "src": "slide12.webp",
+            "alt": "This is Gallery image 12",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide12-large.webp",
+            "alt": "This is Gallery image 12",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "2023-09-03T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 12,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "gallery",
+            "image"
+          ]
+        }
+      },
+      {
+        "id": "slide13",
+        "title": "This is Gallery image 13",
+        "description": "This is Gallery image 13",
+        "slug": "slide13",
+        "images": {
+          "thumbnail": {
+            "src": "slide13.webp",
+            "alt": "This is Gallery image 13",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide13-large.webp",
+            "alt": "This is Gallery image 13",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "2023-09-03T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 13,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "gallery",
+            "image"
+          ]
+        }
+      },
+      {
+        "id": "slide14",
+        "title": "This is Gallery image 14",
+        "description": "This is Gallery image 14",
+        "slug": "slide14",
+        "images": {
+          "thumbnail": {
+            "src": "slide14.webp",
+            "alt": "This is Gallery image 14",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide14-large.webp",
+            "alt": "This is Gallery image 14",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "2023-09-03T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 14,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "gallery",
+            "image"
+          ]
+        }
+      },
+      {
+        "id": "slide15",
+        "title": "This is Gallery image 15",
+        "description": "This is Gallery image 15",
+        "slug": "slide15",
+        "images": {
+          "thumbnail": {
+            "src": "slide15.webp",
+            "alt": "This is Gallery image 15",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide15-large.webp",
+            "alt": "This is Gallery image 15",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "2023-09-03T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 15,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "gallery",
+            "image"
+          ]
+        }
+      },
+      {
+        "id": "slide16",
+        "title": "This is Gallery image 16",
+        "description": "This is Gallery image 16",
+        "slug": "slide16",
+        "images": {
+          "thumbnail": {
+            "src": "slide16.webp",
+            "alt": "This is Gallery image 16",
+            "width": 400,
+            "height": 300
+          },
+          "large": {
+            "src": "slide16-large.webp",
+            "alt": "This is Gallery image 16",
+            "width": 1200,
+            "height": 800
+          }
+        },
+        "tags": [
+          "restaurant",
+          "food",
+          "drink"
+        ],
+        "publishDate": "2023-09-03T00:00:00.000Z",
+        "draft": false,
+        "sortOrder": 16,
+        "metadata": {
+          "location": "The Foresters Arms",
+          "keywords": [
+            "gallery",
+            "image"
+          ]
+        }
+      }
+    ]
+  }
+}

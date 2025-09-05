@@ -1,0 +1,88 @@
+---
+import GalleryCard from './GalleryCard.astro';
+import type { GalleryItem } from '../types/gallery.js';
+
+interface Props {
+  items: GalleryItem[];
+  columns?: {
+    mobile?: number;
+    tablet?: number;
+    desktop?: number;
+  };
+  class?: string;
+}
+
+const {
+  items,
+  columns = { mobile: 2, tablet: 3, desktop: 4 },
+  class: className = ''
+} = Astro.props;
+
+const gridClasses = [
+  `grid-cols-${columns.mobile || 2}`,
+  `md:grid-cols-${columns.tablet || 3}`,
+  `lg:grid-cols-${columns.desktop || 4}`
+].join(' ');
+---
+
+<div class={`gallery-grid ${gridClasses} ${className}`}>
+  {items.map(item => (
+    <GalleryCard
+      item={item}
+      size="medium"
+      loading="lazy"
+    />
+  ))}
+</div>
+
+{items.length === 0 && (
+  <div class="empty-gallery">
+    <div class="empty-content">
+      <div class="empty-icon">🖼️</div>
+      <h3>No Gallery Items</h3>
+      <p>Gallery items will appear here once they're added.</p>
+    </div>
+  </div>
+)}
+
+<style>
+  .gallery-grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .empty-gallery {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .empty-content {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .empty-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+  }
+
+  .empty-gallery h3 {
+    color: #d4af37;
+    margin-bottom: 1rem;
+  }
+
+  .empty-gallery p {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  @media (max-width: 768px) {
+    .gallery-grid {
+      gap: 1rem;
+    }
+
+    .empty-gallery {
+      padding: 2rem 1rem;
+    }
+  }
+</style>
