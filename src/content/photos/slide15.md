@@ -3,7 +3,7 @@ title: "This is Gallery image 15"
 description: "This is Gallery image 15"
 slug: "slide15"
 coverImage:
-  src: "/redesign/july2025/gallery/slide15.webp"
+  src: "slide15.webp"
   alt: "This is Gallery image 15"
 tags: ["restaurant", "food", "drink"]
 publishDate: 2023-09-03

@@ -1,13 +1,13 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "lastUpdated": "2025-09-05T10:24:03.830Z",
+    "lastUpdated": "2025-09-05T10:54:15.540Z",
     "totalItems": 16,
     "schema": "https://forestersarms.com/schemas/gallery-v1.json"
   },
   "gallery": {
     "config": {
-      "defaultImagePath": "/redesign/july2025/gallery/",
+      "defaultImagePath": "./gallery/",
       "supportedFormats": [
         "webp",
         "jpg",
@@ -44,13 +44,13 @@
     "items": [
       {
         "id": "slide1",
-        "title": "This is some kind of pork dish",
+        "title": "menu item 1",
         "description": "This is some kind of pork dish",
         "slug": "slide1",
         "images": {
           "thumbnail": {
             "src": "slide1.webp",
-            "alt": "This is some kind of pork dish",
+            "alt": "pork dish",
             "width": 400,
             "height": 300
           },
@@ -70,7 +70,7 @@
         "draft": false,
         "sortOrder": 1,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "pork",
             "dish"
@@ -79,8 +79,8 @@
       },
       {
         "id": "slide2",
-        "title": "This is Gallery image 2",
-        "description": "This is the second image in the gallery",
+        "title": "This is the second Gallery image",
+        "description": "Honestly, this is the second image in the gallery",
         "slug": "slide2",
         "images": {
           "thumbnail": {
@@ -105,7 +105,7 @@
         "draft": false,
         "sortOrder": 2,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "gallery",
             "image",
@@ -141,7 +141,7 @@
         "draft": false,
         "sortOrder": 3,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "gallery",
             "image"
@@ -176,7 +176,7 @@
         "draft": false,
         "sortOrder": 4,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "gallery",
             "image"
@@ -185,8 +185,8 @@
       },
       {
         "id": "slide5",
-        "title": "This is Gallery image 5",
-        "description": "This is Gallery image 5",
+        "title": "This is definitely Gallery image 5",
+        "description": "This is the description for Gallery image 5",
         "slug": "slide5",
         "images": {
           "thumbnail": {
@@ -211,7 +211,7 @@
         "draft": false,
         "sortOrder": 5,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "gallery",
             "image"
@@ -246,7 +246,7 @@
         "draft": false,
         "sortOrder": 6,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "gallery",
             "image"
@@ -281,7 +281,7 @@
         "draft": false,
         "sortOrder": 7,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "gallery",
             "image"
@@ -316,7 +316,7 @@
         "draft": false,
         "sortOrder": 8,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "gallery",
             "image"
@@ -351,7 +351,7 @@
         "draft": false,
         "sortOrder": 9,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "gallery",
             "image"
@@ -386,7 +386,7 @@
         "draft": false,
         "sortOrder": 10,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "gallery",
             "image"
@@ -421,7 +421,7 @@
         "draft": false,
         "sortOrder": 11,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "gallery",
             "image"
@@ -456,7 +456,7 @@
         "draft": false,
         "sortOrder": 12,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "gallery",
             "image"
@@ -491,7 +491,7 @@
         "draft": false,
         "sortOrder": 13,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "gallery",
             "image"
@@ -526,7 +526,7 @@
         "draft": false,
         "sortOrder": 14,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "gallery",
             "image"
@@ -561,7 +561,7 @@
         "draft": false,
         "sortOrder": 15,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "gallery",
             "image"
@@ -596,7 +596,7 @@
         "draft": false,
         "sortOrder": 16,
         "metadata": {
-          "location": "The Foresters Arms",
+          "location": "The Foresters Arms, Coverdale",
           "keywords": [
             "gallery",
             "image"

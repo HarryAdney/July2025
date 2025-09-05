@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header-internal.astro";
 import Footer from "../components/Footer.astro";
 import GalleryGrid from "../components/GalleryGrid.astro";
-import { getAllGalleryItems } from "../utils/gallery-loader.js";
+import { getAllGalleryItems } from "../utils/gallery-loader.ts";
 import "../styles/global.css";
 
 // Load gallery data using new JSON-based system
@@ -15,8 +15,8 @@ const galleryDataForJS = galleryItems.map(item => ({
   title: item.title,
   description: item.description,
   alt: item.images.large.alt,
-  thumbnailSrc: item.images.thumbnail.src,
-  largeSrc: item.images.large.src
+  thumbnailSrc: `/gallery/${item.images.thumbnail.src}`,
+  largeSrc: `/gallery/${item.images.large.src}`
 }));
 ---
 
@@ -27,7 +27,7 @@ const galleryDataForJS = galleryItems.map(item => ({
     <!-- Restaurant Hero Section -->
     <section
       class="relative flex items-center justify-center min-h-screen pt-20 overflow-hidden bg-cover bg-center bg-no-repeat"
-      style="background-image: url('/redesign/july2025/restaurant-header.webp');"
+      style="background-image: url('/restaurant-header.webp');"
     >
       <div class="absolute inset-0 bg-black/20"></div>
       <div class="container relative z-10 px-6 mx-auto text-center">
@@ -72,7 +72,7 @@ const galleryDataForJS = galleryItems.map(item => ({
             class="w-full bg-gray-800 rounded-lg shadow-xl overflow-hidden animate-fadeInUp delay-1"
           >
             <img
-              src="/redesign/july2025/slow-cooked-beef.webp"
+              src="/slow-cooked-beef.webp"
               alt="Beautifully presented local cuisine"
               class="w-full h-64 md:h-80 lg:h-96 object-cover"
             />
@@ -90,7 +90,7 @@ const galleryDataForJS = galleryItems.map(item => ({
     </section>
 
     <!-- Image Modal -->
-    <div id="imageModal" class="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center p-4">
+    <div id="imageModal" class="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center p-4 hidden">
       <div class="relative max-w-4xl max-h-full">
         <button id="closeModal" class="absolute -top-12 right-0 text-white text-4xl hover:text-gold-accent transition-colors">
           ×
@@ -295,6 +295,7 @@ const galleryDataForJS = galleryItems.map(item => ({
   <Footer />
 
   <style>
+
     @media (min-width: 1080px) {
       section > .container {
         max-width: 80%;
@@ -336,7 +337,7 @@ const galleryDataForJS = galleryItems.map(item => ({
       });
 
       // Setup gallery links
-      const galleryLinks = document.querySelectorAll('a[href*="/photos/"]');
+      const galleryLinks = document.querySelectorAll('a[href*="./gallery/"]');
 
       galleryLinks.forEach(link => {
         link.addEventListener('click', function(e) {
@@ -350,7 +351,7 @@ const galleryDataForJS = galleryItems.map(item => ({
             const item = galleryData.find(item => item.id === slideId);
 
             if (item) {
-              const largeImageSrc = `/redesign/july2025/gallery/${item.largeSrc}`;
+              const largeImageSrc = item.largeSrc;
               openModal(largeImageSrc, item.title, item.description);
             }
           }
