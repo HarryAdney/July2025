@@ -32,7 +32,8 @@ class GalleryLoader {
     try {
       // In Astro, this would be a static import
       const galleryData = await import('../data/gallery.json');
-      return GalleryDataSchema.parse(galleryData.default || galleryData);
+      const rawData = galleryData.default || galleryData;
+      return GalleryDataSchema.parse(rawData) as GalleryData;
     } catch (error) {
       console.error('Failed to load gallery data:', error);
       throw error;
