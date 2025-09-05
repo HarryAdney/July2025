@@ -1,10 +1,11 @@
 ---
-title: "Gallery Image 1"
-description: "A beautiful image from our restaurant gallery"
+title: "This is some kind of pork dish"
+description: "This is some kind of pork dish"
+slug: "slide1"
 coverImage:
   src: "/redesign/july2025/gallery/slide1.webp"
-  alt: "Restaurant gallery image 1"
+  alt: "This is some kind of pork dish"
 tags: ["restaurant", "food", "drink"]
-publishDate: 2023-09-03
+publishDate: 2025-09-03
 draft: false
 ---

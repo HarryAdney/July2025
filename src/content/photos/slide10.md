@@ -1,10 +1,11 @@
 ---
-title: "Gallery Image 10"
-description: "A beautiful image from our restaurant gallery"
+title: "This is Gallery image 10"
+description: "This is Gallery image 10"
+slug: "slide10"
 coverImage:
   src: "/redesign/july2025/gallery/slide10.webp"
-  alt: "Restaurant gallery image 10"
+  alt: "This is Gallery image 10"
 tags: ["restaurant", "food", "drink"]
-publishDate: 2023-09-03
+publishDate: 2024-07-30
 draft: false
 ---

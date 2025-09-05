@@ -1,0 +1,163 @@
+---
+import { Image, getImage } from 'astro:assets';
+
+interface Props {
+  photo: any; // Using any to avoid type issues
+  size?: "small" | "medium" | "large";
+  loading?: 'lazy' | 'eager';
+  class?: string;
+}
+
+const {
+  photo,
+  size = "medium",
+  loading = 'lazy',
+  class: className = ''
+} = Astro.props;
+
+// Size-specific classes using aps- prefix
+const sizeClasses = {
+  small: "aps-photo-card--small",
+  medium: "aps-photo-card--medium",
+  large: "aps-photo-card--large",
+};
+
+// Size-specific image dimensions
+const imageDimensions = {
+  small: { width: 300, height: 300 },
+  medium: { width: 400, height: 300 },
+  large: { width: 600, height: 400 }
+};
+
+const dimensions = imageDimensions[size];
+
+// Generate cropped image for square thumbnails
+const optimizedImage = photo.coverImage?.src ? await getImage({
+  src: photo.coverImage.src,
+  width: dimensions.width,
+  height: dimensions.height,
+  fit: 'cover',
+  format: 'webp'
+}).catch(error => {
+  console.warn('Failed to optimize image:', error);
+  return null;
+}) : null;
+---
+
+<article class="aps-photo-card">
+  <a href={`/photos/${photo.id}`} class="aps-link">
+    <div class={`aps-image-container ${sizeClasses[size]}`}>
+      {optimizedImage ? (
+        <img
+          src={optimizedImage.src}
+          alt={photo.coverImage.alt || photo.title || `Photo ${photo.id}`}
+          class="aps-image aps-image--rounded"
+          loading={loading}
+          width={optimizedImage.attributes.width}
+          height={optimizedImage.attributes.height}
+        />
+      ) : photo.coverImage?.src ? (
+        <img
+          src={photo.coverImage.src}
+          alt={photo.coverImage?.alt || photo.title || `Photo ${photo.id}`}
+          class="aps-image aps-image--rounded"
+          loading={loading}
+          width={dimensions.width}
+          height={dimensions.height}
+        />
+      ) : (
+        <div class="aps-placeholder">
+          <span class="aps-text-muted aps-text-base">No image</span>
+        </div>
+      )}
+    </div>
+
+    {photo.title && (
+      <div class="aps-mt-sm">
+        <span class="aps-text-xs aps-text-secondary">
+          {photo.title}
+        </span>
+      </div>
+    )}
+  </a>
+</article>
+
+<style>
+  /* Component-specific styles */
+  .aps-photo-card {
+    display: block;
+    width: 100%;
+  }
+
+  .aps-link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .aps-image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .aps-photo-card--small {
+    aspect-ratio: 1;
+    max-width: 384px;
+  }
+
+  .aps-photo-card--medium {
+    aspect-ratio: 4/3;
+  }
+
+  .aps-photo-card--large {
+    aspect-ratio: 3/2;
+  }
+
+  .aps-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .aps-image--rounded {
+    border-radius: 8px;
+  }
+
+  .aps-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f4f6;
+    color: #6b7280;
+    height: 100%;
+  }
+
+  .aps-mt-sm {
+    margin-top: 0.5rem;
+  }
+
+  .aps-text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .aps-text-secondary {
+    color: #6b7280;
+  }
+
+  .aps-text-muted {
+    color: #9ca3af;
+  }
+
+  .aps-text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .aps-photo-card--small {
+      max-width: none;
+    }
+  }
+</style>

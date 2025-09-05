@@ -1,0 +1,36 @@
+---
+import CustomPhotoCard from './CustomPhotoCard.astro';
+
+interface Props {
+  photos: any[];
+  columns?: {
+    mobile?: number;
+    tablet?: number;
+    desktop?: number;
+  };
+  class?: string;
+}
+
+const {
+  photos,
+  columns = { mobile: 2, tablet: 3, desktop: 4 },
+  class: className = ''
+} = Astro.props;
+
+// Generate grid classes based on column configuration
+const gridClasses = [
+  `grid-cols-${columns.mobile || 2}`,
+  `md:grid-cols-${columns.tablet || 3}`,
+  `lg:grid-cols-${columns.desktop || 4}`
+].join(' ');
+---
+
+<div class={`grid gap-4 ${gridClasses} ${className}`}>
+  {photos.map(photo => (
+    <CustomPhotoCard
+      photo={photo}
+      size="medium"
+      loading="lazy"
+    />
+  ))}
+</div>

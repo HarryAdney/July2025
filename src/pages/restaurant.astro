@@ -2,23 +2,44 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header-internal.astro";
 import Footer from "../components/Footer.astro";
-import { PhotoGrid } from 'astro-photostream/components';
+import CustomPhotoGrid from "../components/CustomPhotoGrid.astro";
 import "../styles/global.css";
 
 const { getCollection } = await import('astro:content');
 const photoCollection = await getCollection('photos');
-const photos = photoCollection.map(photo => ({
-  id: photo.id,
-  title: photo.data.title,
-  description: photo.data.description,
-  coverImage: {
-    src: photo.data.coverImage.src,
-    alt: photo.data.coverImage.alt,
-  },
-  tags: photo.data.tags,
-  publishDate: photo.data.publishDate,
-  draft: photo.data.draft
-}));
+const photos = photoCollection
+  .sort((a, b) => {
+    // Extract numbers from slide IDs for proper sorting
+    const aNum = parseInt(a.id.replace('slide', ''));
+    const bNum = parseInt(b.id.replace('slide', ''));
+    return aNum - bNum;
+  })
+  .map(photo => ({
+    id: photo.id,
+    title: photo.data.title,
+    description: photo.data.description,
+    coverImage: {
+      src: photo.data.coverImage.src,
+      alt: photo.data.coverImage.alt,
+    },
+    tags: photo.data.tags,
+    publishDate: photo.data.publishDate,
+    draft: photo.data.draft
+  }));
+
+// Create a simple serializable object for client-side JavaScript
+const photosForJS = photoCollection
+  .sort((a, b) => {
+    const aNum = parseInt(a.id.replace('slide', ''));
+    const bNum = parseInt(b.id.replace('slide', ''));
+    return aNum - bNum;
+  })
+  .map(photo => ({
+    id: photo.id,
+    title: photo.data.title,
+    description: photo.data.description,
+    alt: photo.data.coverImage?.alt || photo.data.title
+  }));
 ---
 
 <Layout title="Restaurant | Foresters Arms Coverdale" description="Experience exceptional dining at The Foresters Arms restaurant in Carlton-in-Coverdale. Enjoy locally sourced Yorkshire cuisine, legendary ales, and warm hospitality in our historic Grade II listed pub.">
@@ -83,12 +104,26 @@ const photos = photoCollection.map(photo => ({
     </section>
 
     <!-- Food & Drink Gallery Section -->
-    <section class="py-20 bg-gray-800 md:py-32">
+    <section id="gallery" class="py-20 bg-gray-800 md:py-32">
       <div class="container px-6 mx-auto">
         <h2 class="mb-16 text-4xl text-center md:text-5xl font-display gold-accent animate-fadeInUp">Our Food & Drink Gallery</h2>
-        <PhotoGrid photos={photos} columns={{ mobile: 2, tablet: 3, desktop: 4 }} class="mx-auto max-w-[1440px]" />
+        <CustomPhotoGrid photos={photos} columns={{ mobile: 2, tablet: 3, desktop: 4 }} class="mx-auto max-w-[1440px]" />
       </div>
     </section>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center p-4">
+      <div class="relative max-w-4xl max-h-full">
+        <button id="closeModal" class="absolute -top-12 right-0 text-white text-4xl hover:text-gold-accent transition-colors">
+          ×
+        </button>
+        <img id="modalImage" src="" alt="" class="max-w-full max-h-full object-contain rounded-lg shadow-2xl" />
+        <div id="modalInfo" class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6 text-white">
+          <h3 id="modalTitle" class="text-xl font-display gold-accent mb-2"></h3>
+          <p id="modalDescription" class="text-gray-300"></p>
+        </div>
+      </div>
+    </div>
 
 
     <!-- Combined Menu & Dining Information Section -->
@@ -246,13 +281,14 @@ const photos = photoCollection.map(photo => ({
               </div>
 
 
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-
+    <!-- Call to Action Section -->
+    <section class="py-20 bg-gray-900 md:py-32">
       <div class="container px-6 mx-auto text-center">
         <h2 class="mb-6 text-4xl font-display gold-accent animate-fadeInUp">
           Ready to Dine With Us?
@@ -275,7 +311,7 @@ const photos = photoCollection.map(photo => ({
           </a>
         </div>
       </div>
-    </section> -->
+    </section>
   </main>
 
   <Footer />
@@ -288,4 +324,129 @@ const photos = photoCollection.map(photo => ({
       }
     }
   </style>
+
+  <script>
+    // Photo data dynamically loaded from the .md files
+    const photosData = [
+      {id: "slide1", title: "This is some kind of pork dish", description: "This is some kind of pork dish", alt: "This is some kind of pork dish"},
+      {id: "slide2", title: "This is Gallery image 2", description: "This is the second image in the gallery", alt: "This is Gallery image 2"},
+      {id: "slide3", title: "This is Gallery image 3", description: "This is Gallery image 3", alt: "This is Gallery image 3"},
+      {id: "slide4", title: "This is Gallery image 4", description: "This is Gallery image 4", alt: "This is Gallery image 4"},
+      {id: "slide5", title: "This is Gallery image 5", description: "This is Gallery image 5", alt: "This is Gallery image 5"},
+      {id: "slide6", title: "This is Gallery image 6", description: "This is Gallery image 6", alt: "This is Gallery image 6"},
+      {id: "slide7", title: "This is Gallery image 7", description: "This is Gallery image 7", alt: "This is Gallery image 7"},
+      {id: "slide8", title: "This is Gallery image 8", description: "This is Gallery image 8", alt: "This is Gallery image 8"},
+      {id: "slide9", title: "This is Gallery image 9", description: "This is Gallery image 9", alt: "This is Gallery image 9"},
+      {id: "slide10", title: "This is Gallery image 10", description: "This is Gallery image 10", alt: "This is Gallery image 10"},
+      {id: "slide11", title: "This is Gallery image 11", description: "This is Gallery image 11", alt: "This is Gallery image 11"},
+      {id: "slide12", title: "This is Gallery image 12", description: "This is Gallery image 12", alt: "This is Gallery image 12"},
+      {id: "slide13", title: "This is Gallery image 13", description: "This is Gallery image 13", alt: "This is Gallery image 13"},
+      {id: "slide14", title: "This is Gallery image 14", description: "This is Gallery image 14", alt: "This is Gallery image 14"},
+      {id: "slide15", title: "This is Gallery image 15", description: "This is Gallery image 15", alt: "This is Gallery image 15"},
+      {id: "slide16", title: "This is Gallery image 16", description: "This is Gallery image 16", alt: "This is Gallery image 16"}
+    ];
+    console.log('Script loaded, photosData:', photosData);
+
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('DOM loaded');
+      const modal = document.getElementById('imageModal');
+      const modalImage = document.getElementById('modalImage');
+      const modalTitle = document.getElementById('modalTitle');
+      const modalDescription = document.getElementById('modalDescription');
+      const closeModal = document.getElementById('closeModal');
+
+      console.log('Modal elements:', { modal, modalImage, modalTitle, modalDescription, closeModal });
+
+      // Function to open modal
+      function openModal(imageSrc, title, description) {
+        console.log('Opening modal with:', { imageSrc, title, description });
+        if (modalImage instanceof HTMLImageElement) {
+          modalImage.src = imageSrc;
+          modalImage.alt = title;
+        }
+        modalTitle.textContent = title;
+        modalDescription.textContent = description;
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+      }
+
+      // Function to close modal
+      function closeModalFunc() {
+        console.log('Closing modal');
+        modal.classList.add('hidden');
+        document.body.style.overflow = 'auto';
+      }
+
+      // Close modal when clicking the X button
+      closeModal.addEventListener('click', closeModalFunc);
+
+      // Close modal when clicking outside the image
+      modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+          closeModalFunc();
+        }
+      });
+
+      // Close modal with Escape key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+          closeModalFunc();
+        }
+      });
+
+      // Function to setup gallery links
+      function setupGalleryLinks() {
+        console.log('Setting up gallery links...');
+        const galleryLinks = document.querySelectorAll('a[href*="/photos/"]');
+        console.log('Found gallery links:', galleryLinks.length);
+
+        galleryLinks.forEach((link, index) => {
+          const anchorLink = link as HTMLAnchorElement;
+          console.log('Setting up link', index, ':', anchorLink.href);
+          anchorLink.addEventListener('click', function(e) {
+            console.log('Gallery link clicked:', this.href);
+            e.preventDefault();
+
+            // Extract slide number from the href
+            const href = this.getAttribute('href');
+            console.log('Href:', href);
+            const slideMatch = href.match(/slide(\d+)/);
+            console.log('Slide match:', slideMatch);
+
+            if (slideMatch) {
+              const slideNumber = slideMatch[1];
+              console.log('Slide number:', slideNumber);
+              const largeImageSrc = '/redesign/july2025/gallery/slide' + slideNumber + '-large.webp';
+
+              // Find the corresponding photo data from the actual slide.md files
+              const slideId = 'slide' + slideNumber;
+              console.log('Looking for slideId:', slideId);
+              console.log('Available photosData:', photosData);
+              console.log('PhotosData length:', photosData.length);
+              console.log('PhotosData IDs:', photosData.map(p => p.id));
+
+              const photoData = photosData.find(photo => photo.id === slideId);
+              console.log('Found photoData:', photoData);
+
+              const title = photoData ? photoData.title : 'Gallery Image ' + slideNumber;
+              const description = photoData ? photoData.description : 'A beautiful image from our restaurant gallery';
+
+              console.log('Using title:', title);
+              console.log('Using description:', description);
+
+              openModal(largeImageSrc, title, description);
+            } else {
+              console.log('No slide match found for href:', href);
+            }
+          });
+        });
+      }
+
+      // Try multiple times to setup gallery links
+      setTimeout(setupGalleryLinks, 100);
+      setTimeout(setupGalleryLinks, 500);
+      setTimeout(setupGalleryLinks, 1000);
+      setTimeout(setupGalleryLinks, 2000);
+    });
+  </script>
 </Layout>
