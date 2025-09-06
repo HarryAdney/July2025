@@ -1,0 +1,938 @@
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide8.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide9.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide3.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+19ms)
+10:22:19 ▶ astro-photostream/src/routes/photos/[slug].astro
+10:22:19   ├─ /photos/slide1/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide12.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+29ms)
+10:22:19   ├─ /photos/slide2/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide12.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+20ms)
+10:22:19   ├─ /photos/slide10/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide12.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+35ms) 
+10:22:19   ├─ /photos/slide11/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide12.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+26ms)
+10:22:19   ├─ /photos/slide12/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide12.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+26ms) 
+10:22:19   ├─ /photos/slide13/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide13.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+44ms) 
+10:22:19   ├─ /photos/slide14/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide14.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+28ms)
+10:22:19   ├─ /photos/slide15/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide15.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+30ms)
+10:22:19   ├─ /photos/slide16/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide16.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+48ms) 
+10:22:19   ├─ /photos/slide4/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide4.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+31ms) 
+10:22:19   ├─ /photos/slide5/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide5.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+28ms) 
+10:22:19   ├─ /photos/slide6/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide6.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+32ms) 
+10:22:19   ├─ /photos/slide7/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide7.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+27ms)
+10:22:19   ├─ /photos/slide8/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide8.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+26ms) 
+10:22:19   ├─ /photos/slide9/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide9.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+23ms)
+10:22:19   └─ /photos/slide3/index.htmlFailed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide3.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide1.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide2.webp`.
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide10.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+Failed to optimize image: LocalImageUsedWrongly: `Image`'s and `getImage`'s `src` parameter must be an imported image or an URL, it cannot be a string filepath. Received `slide11.webp`.        
+    at Object.validateOptions (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:153:15)
+    at getImage$1 (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1288:68)
+    at async getImage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/_astro_assets_BG_t_uIb.mjs:1454:44)
+    at async file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/chunks/PhotoCard_BDTwRunI.mjs:29:50 {
+  loc: undefined,
+  title: 'Local images must be imported.',
+  hint: 'If you want to use an image from your `src` folder, you need to either import it or if the image is coming from a content collection, use the [image() schema helper](https://docs.astro.build/en/guides/images/#images-in-content-collections). See https://docs.astro.build/en/guides/images/#src-required for more information on the `src` property.',
+  frame: undefined,
+  type: 'AstroError'
+}
+ (+62ms) 
+10:22:19 ▶ astro-photostream/src/routes/photos/[...page].astro
+10:22:19   ├─ /photos/index.htmlprevUrl is not defined
+  Stack trace:
+    at file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/dist/pages/photos/_---page_.astro.mjs?time=1757150539933:57:4871
+    at callComponentAsTemplateResultOrResponse (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/node_modules/astro/dist/runtime/server/render/astro/render.js:91:31)    at renderPage (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/node_modules/astro/dist/runtime/server/render/page.js:49:18)
+    at async NOOP_MIDDLEWARE_FN (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/node_modules/astro/dist/core/middleware/noop-middleware.js:3:20)
+    at async RenderContext.render (file:///E:/WebDev/_projects/_active-projects/forestersarmscoverdale/july2025/node_modules/astro/dist/core/render-context.js:232:22)

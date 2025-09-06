@@ -1,6 +1,4 @@
 ---
-import { Image, getImage } from 'astro:assets';
-
 interface Props {
   photo: any; // Using any to avoid type issues
   size?: "small" | "medium" | "large";
@@ -31,32 +29,15 @@ const imageDimensions = {
 
 const dimensions = imageDimensions[size];
 
-// Generate cropped image for square thumbnails
-const optimizedImage = photo.coverImage?.src ? await getImage({
-  src: photo.coverImage.src,
-  width: dimensions.width,
-  height: dimensions.height,
-  fit: 'cover',
-  format: 'webp'
-}).catch(error => {
-  console.warn('Failed to optimize image:', error);
-  return null;
-}) : null;
+// For content collection images, we'll use direct paths without optimization
+// since getImage() requires imported images, not string paths
+const optimizedImage = null;
 ---
 
 <article class="aps-photo-card">
   <a href={`./gallery/${photo.id}`} class="aps-link">
     <div class={`aps-image-container ${sizeClasses[size]}`}>
-      {optimizedImage ? (
-        <img
-          src={optimizedImage.src}
-          alt={photo.coverImage.alt || photo.title || `Photo ${photo.id}`}
-          class="aps-image aps-image--rounded"
-          loading={loading}
-          width={optimizedImage.attributes.width}
-          height={optimizedImage.attributes.height}
-        />
-      ) : photo.coverImage?.src ? (
+      {photo.coverImage?.src ? (
         <img
           src={photo.coverImage.src}
           alt={photo.coverImage?.alt || photo.title || `Photo ${photo.id}`}
