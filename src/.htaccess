@@ -1,0 +1,29 @@
+AddType text/html .php
+AddHandler server-parsed .php
+Options Indexes FollowSymLinks Includes
+
+RewriteEngine On
+
+# Force non-www
+RewriteCond %{HTTP_HOST} ^www.forestersarmscoverdale.com [NC]
+RewriteRule ^(.*)$ https://forestersarmscoverdale.com/$1 [L,R=301]
+
+# Skip ALL rewrites for Astro redesign directory and subdirectories
+RewriteCond %{REQUEST_URI} ^/redesign/july2025/ [NC]
+RewriteRule .* - [L]
+
+# Rewrite clean URLs to PHP (only for root-level PHP files)
+RewriteCond %{REQUEST_URI} !^/redesign/ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)/$ $1.php [L]
+
+RewriteCond %{REQUEST_URI} !^/redesign/ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)/([^/]+)/$ /$1/$2.php [L]
+
+# Append slash if no file/extension found (only for root-level content)
+RewriteCond %{REQUEST_URI} !^/redesign/ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+RewriteRule (.*)$ /$1/ [R=301,L]

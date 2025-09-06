@@ -15,8 +15,8 @@ const galleryDataForJS = galleryItems.map(item => ({
   title: item.title,
   description: item.description,
   alt: item.images.large.alt,
-  thumbnailSrc: `/gallery/${item.images.thumbnail.src}`,
-  largeSrc: `/gallery/${item.images.large.src}`
+  thumbnailSrc: `${import.meta.env.BASE_URL}gallery/${item.images.thumbnail.src}`,
+  largeSrc: `${import.meta.env.BASE_URL}gallery/${item.images.large.src}`
 }));
 ---
 
@@ -27,7 +27,7 @@ const galleryDataForJS = galleryItems.map(item => ({
     <!-- Restaurant Hero Section -->
     <section
       class="relative flex items-center justify-center min-h-screen pt-20 overflow-hidden bg-cover bg-center bg-no-repeat"
-      style="background-image: url('/restaurant-header.webp');"
+      style={`background-image: url('${import.meta.env.BASE_URL}restaurant-header.webp');`}
     >
       <div class="absolute inset-0 bg-black/20"></div>
       <div class="container relative z-10 px-6 mx-auto text-center">
@@ -72,7 +72,7 @@ const galleryDataForJS = galleryItems.map(item => ({
             class="w-full bg-gray-800 rounded-lg shadow-xl overflow-hidden animate-fadeInUp delay-1"
           >
             <img
-              src="/slow-cooked-beef.webp"
+              src={`${import.meta.env.BASE_URL}slow-cooked-beef.webp`}
               alt="Beautifully presented local cuisine"
               class="w-full h-64 md:h-80 lg:h-96 object-cover"
             />
@@ -308,11 +308,11 @@ const galleryDataForJS = galleryItems.map(item => ({
     document.addEventListener('DOMContentLoaded', function() {
       const modal = document.getElementById('imageModal');
       const modalImage = document.getElementById('modalImage');
-      const modalTitle = document.getElementById('modalTitle');
-      const modalDescription = document.getElementById('modalDescription');
+      // const modalTitle = document.getElementById('modalTitle');
+      // const modalDescription = document.getElementById('modalDescription');
       const closeModal = document.getElementById('closeModal');
 
-      function openModal(imageSrc, title, description) {
+      function openModal(imageSrc, title) {
         modalImage.src = imageSrc;
         modalImage.alt = title;
         // modalTitle.textContent = title;

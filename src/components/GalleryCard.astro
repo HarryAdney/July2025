@@ -30,14 +30,14 @@ const imageDimensions = {
 
 const dimensions = imageDimensions[size];
 // Images are in public/gallery, so we reference them directly
-const imagePath = `/gallery/${item.images.thumbnail.src}`;
+const imagePath = `${import.meta.env.BASE_URL}gallery/${item.images.thumbnail.src}`;
 
 // For public images, we don't use getImage optimization, just direct paths
 const optimizedImage = null;
 ---
 
 <article class={`gallery-card ${sizeClasses[size]} ${className}`} data-item-id={item.id}>
-  <a href={`./gallery/${item.slug}`} class="gallery-card__link">
+  <a href={`${import.meta.env.BASE_URL}gallery/${item.slug}`} class="gallery-card__link">
     <div class="gallery-card__image-container">
       {optimizedImage ? (
         <img
@@ -59,13 +59,13 @@ const optimizedImage = null;
         />
       )}
 
-      <div class="gallery-card__overlay">
+      <!-- <div class="gallery-card__overlay">
         <div class="gallery-card__tags">
           {item.tags.slice(0, 2).map(tag => (
             <span class="gallery-card__tag">{tag}</span>
           ))}
         </div>
-      </div>
+      </div> -->
     </div>
 
     <div class="gallery-card__content">

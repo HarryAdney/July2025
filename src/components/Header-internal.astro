@@ -16,15 +16,15 @@
       <nav
         class="items-center hidden space-x-6 xl-nav:flex animate-fadeIn delay-1"
       >
-        <a href="./" class="text-gray-300 nav-link-hover">Home</a>
-        <a href="./#about-us" class="text-gray-300 nav-link-hover">About Us</a>
-        <a href="./restaurant" class="text-gray-300 nav-link-hover">Restaurant</a>
-        <a href="./#rooms" class="text-gray-300 nav-link-hover">Rooms</a>
-        <a href="./local-attractions" class="text-gray-300 nav-link-hover"
+        <a href={import.meta.env.BASE_URL} class="text-gray-300 nav-link-hover">Home</a>
+        <a href={`${import.meta.env.BASE_URL}#about-us`} class="text-gray-300 nav-link-hover">About Us</a>
+        <a href={`${import.meta.env.BASE_URL}restaurant`} class="text-gray-300 nav-link-hover">Restaurant</a>
+        <a href={`${import.meta.env.BASE_URL}#rooms`} class="text-gray-300 nav-link-hover">Rooms</a>
+        <a href={`${import.meta.env.BASE_URL}local-attractions`} class="text-gray-300 nav-link-hover"
           >Local Attractions</a
         >
-        <a href="./history" class="text-gray-300 nav-link-hover">History</a>
-        <a href="./#contact" class="text-gray-300 nav-link-hover">Contact</a>
+        <a href={`${import.meta.env.BASE_URL}history`} class="text-gray-300 nav-link-hover">History</a>
+        <a href={`${import.meta.env.BASE_URL}#contact`} class="text-gray-300 nav-link-hover">Contact</a>
         <a
           href="http://securebooking.eviivo.com/mywebsite/ForestersArmsDL8.home?viewname=onlinebooking"
           target="_blank"
@@ -62,37 +62,37 @@
     style="display: none;"
   >
     <a
-      href="./"
+      href={import.meta.env.BASE_URL}
       class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
       >Home</a
     >
     <a
-      href="./#about-us"
+      href={`${import.meta.env.BASE_URL}#about-us`}
       class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
       >About Us</a
     >
     <a
-      href="./restaurant"
+      href={`${import.meta.env.BASE_URL}restaurant`}
       class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
       >Restaurant</a
     >
     <a
-      href="./#rooms"
+      href={`${import.meta.env.BASE_URL}#rooms`}
       class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
       >Rooms</a
     >
     <a
-      href="./local-attractions"
+      href={`${import.meta.env.BASE_URL}local-attractions`}
       class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
       >Local Attractions</a
     >
     <a
-      href="./history"
+      href={`${import.meta.env.BASE_URL}history`}
       class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
       >History</a
     >
     <a
-      href="./#contact"
+      href={`${import.meta.env.BASE_URL}#contact`}
       class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
       >Contact</a
     >
