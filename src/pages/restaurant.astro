@@ -96,10 +96,10 @@ const galleryDataForJS = galleryItems.map(item => ({
           ×
         </button>
         <img id="modalImage" src="" alt="" class="max-w-full max-h-full object-contain rounded-lg shadow-2xl" />
-        <div id="modalInfo" class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6 text-white">
+        <!-- <div id="modalInfo" class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6 text-white">
           <h3 id="modalTitle" class="text-xl font-display gold-accent mb-2"></h3>
           <p id="modalDescription" class="text-gray-300"></p>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -315,8 +315,8 @@ const galleryDataForJS = galleryItems.map(item => ({
       function openModal(imageSrc, title, description) {
         modalImage.src = imageSrc;
         modalImage.alt = title;
-        modalTitle.textContent = title;
-        modalDescription.textContent = description;
+        // modalTitle.textContent = title;
+        // modalDescription.textContent = description;
         modal.classList.remove('hidden');
         document.body.style.overflow = 'hidden';
       }
