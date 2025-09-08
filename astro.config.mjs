@@ -8,5 +8,5 @@ export default defineConfig({
   build: {
     assets: 'assets'
   },
-  base: '/redesign/july2025/'
+  base: '/'
 });
