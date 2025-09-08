@@ -59,20 +59,13 @@ const optimizedImage = null;
         />
       )}
 
-      <div class="gallery-card__overlay">
+      <!-- <div class="gallery-card__overlay">
         <div class="gallery-card__tags">
           {item.tags.slice(0, 2).map(tag => (
             <span class="gallery-card__tag">{tag}</span>
           ))}
         </div>
-      </div>
-    </div>
-
-    <div class="gallery-card__content">
-      <h3 class="gallery-card__title">{item.title}</h3>
-      {item.description && (
-        <p class="gallery-card__description">{item.description}</p>
-      )}
+      </div> -->
     </div>
   </a>
 </article>
@@ -160,35 +153,4 @@ const optimizedImage = null;
     font-weight: 500;
   }
 
-  .gallery-card__content {
-    padding: 1rem;
-  }
-
-  .gallery-card__title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin: 0 0 0.5rem 0;
-    color: #d4af37;
-  }
-
-  .gallery-card__description {
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.8);
-    margin: 0;
-    line-height: 1.4;
-  }
-
-  @media (max-width: 768px) {
-    .gallery-card__content {
-      padding: 0.75rem;
-    }
-
-    .gallery-card__title {
-      font-size: 1rem;
-    }
-
-    .gallery-card__description {
-      font-size: 0.85rem;
-    }
-  }
 </style>

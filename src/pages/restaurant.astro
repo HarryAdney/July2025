@@ -96,10 +96,6 @@ const galleryDataForJS = galleryItems.map(item => ({
           ×
         </button>
         <img id="modalImage" src="" alt="" class="max-w-full max-h-full object-contain rounded-lg shadow-2xl" />
-        <div id="modalInfo" class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6 text-white">
-          <h3 id="modalTitle" class="text-xl font-display gold-accent mb-2"></h3>
-          <p id="modalDescription" class="text-gray-300"></p>
-        </div>
       </div>
     </div>
 
@@ -308,15 +304,11 @@ const galleryDataForJS = galleryItems.map(item => ({
     document.addEventListener('DOMContentLoaded', function() {
       const modal = document.getElementById('imageModal');
       const modalImage = document.getElementById('modalImage');
-      const modalTitle = document.getElementById('modalTitle');
-      const modalDescription = document.getElementById('modalDescription');
       const closeModal = document.getElementById('closeModal');
 
-      function openModal(imageSrc, title, description) {
+      function openModal(imageSrc, alt) {
         modalImage.src = imageSrc;
-        modalImage.alt = title;
-        modalTitle.textContent = title;
-        modalDescription.textContent = description;
+        modalImage.alt = alt;
         modal.classList.remove('hidden');
         document.body.style.overflow = 'hidden';
       }
@@ -352,7 +344,7 @@ const galleryDataForJS = galleryItems.map(item => ({
 
             if (item) {
               const largeImageSrc = item.largeSrc;
-              openModal(largeImageSrc, item.title, item.description);
+              openModal(largeImageSrc, item.alt);
             }
           }
         });
