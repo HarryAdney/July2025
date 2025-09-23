@@ -1,0 +1,463 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header-internal.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/global.css";
+---
+
+<Layout title="Christmas & New Year Menus | Foresters Arms Coverdale" description="Celebrate the festive season at The Foresters Arms with our special Christmas and New Year menus. Enjoy traditional Yorkshire dishes with a festive twist, holiday cocktails, and warm hospitality in our historic setting.">
+  <Header />
+
+  <main>
+    <!-- Christmas Hero Section -->
+    <section
+      class="relative flex items-center justify-center min-h-screen pt-20 overflow-hidden bg-cover bg-center bg-no-repeat"
+      style="background-image: url('/restaurant-header.webp');"
+    >
+      <div class="absolute inset-0 bg-gradient-to-br from-black/80 via-red-900/20 to-green-900/20"></div>
+      <div class="absolute inset-0 bg-black/40"></div>
+      <div class="container relative z-10 px-6 mx-auto text-center">
+        <div class="mb-4 animate-fadeInUp">
+          <span class="inline-block px-4 py-2 text-sm font-semibold text-white bg-red-600 rounded-full">
+            🎄 Festive Season 2024 🎄
+          </span>
+        </div>
+        <h1
+          class="mb-6 text-5xl font-black md:text-7xl font-display gold-accent animate-fadeInUp delay-1"
+        >
+          Christmas & New Year
+        </h1>
+        <p
+          class="max-w-3xl mx-auto mb-10 text-xl text-gray-300 md:text-2xl animate-fadeInUp delay-2"
+        >
+          Celebrate the most wonderful time of the year with us. From festive feasts to New Year's Eve celebrations, create magical memories in our historic Yorkshire inn.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-fadeInUp delay-3">
+          <a
+            href="#christmas-menu"
+            class="px-8 py-3 text-lg font-semibold text-black transition-all duration-300 transform rounded-lg bg-gold-accent hover-gold-accent hover:scale-105 focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-opacity-50"
+          >
+            Christmas Menu
+          </a>
+          <a
+            href="#new-year"
+            class="px-8 py-3 text-lg font-semibold transition-all duration-300 transform rounded-lg border-2 border-gold-accent gold-accent hover:bg-gold-accent hover:text-black focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-opacity-50"
+          >
+            New Year Packages
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Christmas Menu Section -->
+    <section id="christmas-menu" class="py-20 bg-gray-900 md:py-32">
+      <div class="container px-6 mx-auto">
+        <div class="text-center mb-16">
+          <h2 class="mb-6 text-4xl md:text-5xl font-display gold-accent animate-fadeInUp">
+            Christmas Menu
+          </h2>
+          <p class="max-w-3xl mx-auto text-xl text-gray-400 animate-fadeInUp delay-1">
+            Available from December 1st to December 24th. Three courses for £45 per person.
+            Vegetarian and dietary alternatives available upon request.
+          </p>
+        </div>
+
+        <div class="grid gap-12 lg:grid-cols-2">
+          <!-- Left Column: Menu -->
+          <div class="animate-fadeInUp delay-1">
+            <div class="space-y-8 p-4 rounded-lg glassmorphic-card">
+              <!-- Starters -->
+              <div>
+                <h3 class="pr-4 pl-4 mb-4 text-2xl font-display gold-accent flex items-center">
+                  <span class="mr-2">🎄</span> Starters
+                </h3>
+                <div class="space-y-4">
+                  <div class="pr-4 pl-4 pb-4 border-b border-gray-700">
+                    <div class="flex justify-between items-start mb-2">
+                      <h4 class="text-lg font-semibold text-white">Festive Pâté</h4>
+                      <span class="text-gold-accent font-semibold">£8</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Duck liver pâté with cranberry compote, toasted brioche, and festive garnish</p>
+                  </div>
+
+                  <div class="pr-4 pl-4 pb-4 border-b border-gray-700">
+                    <div class="flex justify-between items-start mb-2">
+                      <h4 class="text-lg font-semibold text-white">Winter Soup</h4>
+                      <span class="text-gold-accent font-semibold">£7</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Roasted butternut squash and chestnut soup with sage oil and crusty bread</p>
+                  </div>
+
+                  <div class="pr-4 pl-4 pb-4 border-b border-gray-700">
+                    <div class="flex justify-between items-start mb-2">
+                      <h4 class="text-lg font-semibold text-white">Prawn Cocktail</h4>
+                      <span class="text-gold-accent font-semibold">£9</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Atlantic prawns with Marie Rose sauce, avocado, and festive salad leaves</p>
+                  </div>
+
+                  <div class="pr-4 pl-4 pb-4">
+                    <div class="flex justify-between items-start mb-2">
+                      <h4 class="text-lg font-semibold text-white">Baked Camembert (V)</h4>
+                      <span class="text-gold-accent font-semibold">£8</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Whole baked Camembert with cranberry sauce, rosemary, and warm bread</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Main Courses -->
+              <div>
+                <h3 class="pr-4 pl-4 mb-4 text-2xl font-display gold-accent flex items-center">
+                  <span class="mr-2">🦃</span> Main Courses
+                </h3>
+                <div class="space-y-4">
+                  <div class="pr-4 pl-4 pb-4 border-b border-gray-700">
+                    <div class="flex justify-between items-start mb-2">
+                      <h4 class="text-lg font-semibold text-white">Roast Turkey</h4>
+                      <span class="text-gold-accent font-semibold">£22</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Traditional roast turkey with all the trimmings: pigs in blankets, sage and onion stuffing, roast potatoes, seasonal vegetables, and cranberry gravy</p>
+                  </div>
+
+                  <div class="pr-4 pl-4 pb-4 border-b border-gray-700">
+                    <div class="flex justify-between items-start mb-2">
+                      <h4 class="text-lg font-semibold text-white">Beef Wellington</h4>
+                      <span class="text-gold-accent font-semibold">£28</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Prime beef fillet wrapped in puff pastry with mushroom duxelles, served with fondant potatoes and red wine jus</p>
+                  </div>
+
+                  <div class="pr-4 pl-4 pb-4 border-b border-gray-700">
+                    <div class="flex justify-between items-start mb-2">
+                      <h4 class="text-lg font-semibold text-white">Salmon en Croute</h4>
+                      <span class="text-gold-accent font-semibold">£24</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Fresh salmon with spinach and cream cheese in flaky pastry, served with hollandaise sauce and winter greens</p>
+                  </div>
+
+                  <div class="pr-4 pl-4 pb-4">
+                    <div class="flex justify-between items-start mb-2">
+                      <h4 class="text-lg font-semibold text-white">Nut Roast (V/VG)</h4>
+                      <span class="text-gold-accent font-semibold">£18</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Festive nut roast with chestnuts, cranberries, and herbs, served with roast potatoes and vegetarian gravy</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Desserts -->
+              <div>
+                <h3 class="pr-4 pl-4 mb-4 text-2xl font-display gold-accent flex items-center">
+                  <span class="mr-2">🍰</span> Desserts
+                </h3>
+                <div class="space-y-4">
+                  <div class="pr-4 pl-4 pb-4 border-b border-gray-700">
+                    <div class="flex justify-between items-start mb-2">
+                      <h4 class="text-lg font-semibold text-white">Christmas Pudding</h4>
+                      <span class="text-gold-accent font-semibold">£8</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Traditional Christmas pudding with brandy sauce, served with a festive flourish</p>
+                  </div>
+
+                  <div class="pr-4 pl-4 pb-4 border-b border-gray-700">
+                    <div class="flex justify-between items-start mb-2">
+                      <h4 class="text-lg font-semibold text-white">Chocolate Yule Log</h4>
+                      <span class="text-gold-accent font-semibold">£7</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Rich chocolate sponge filled with cream, decorated with meringue mushrooms and festive cheer</p>
+                  </div>
+
+                  <div class="pr-4 pl-4 pb-4">
+                    <div class="flex justify-between items-start mb-2">
+                      <h4 class="text-lg font-semibold text-white">Cranberry & Orange Cheesecake</h4>
+                      <span class="text-gold-accent font-semibold">£7</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Festive cheesecake with cranberry compote and candied orange, served with vanilla ice cream</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Information -->
+          <div class="animate-fadeInUp delay-2">
+            <div class="space-y-6">
+              <!-- Christmas Hours -->
+              <div class="p-6 rounded-lg glassmorphic-card">
+                <h3 class="mb-4 text-xl font-display gold-accent flex items-center">
+                  <span class="mr-2">🕐</span> Festive Opening Hours
+                </h3>
+                <ul class="space-y-2 text-gray-400">
+                  <li class="flex justify-between">
+                    <span>Christmas Eve:</span>
+                    <span>12pm - 10pm</span>
+                  </li>
+                  <li class="flex justify-between">
+                    <span>Christmas Day:</span>
+                    <span class="text-red-400">Closed for family time</span>
+                  </li>
+                  <li class="flex justify-between">
+                    <span>Boxing Day:</span>
+                    <span>12pm - 8pm</span>
+                  </li>
+                  <li class="flex justify-between">
+                    <span>New Year's Eve:</span>
+                    <span>12pm - Late</span>
+                  </li>
+                  <li class="flex justify-between">
+                    <span>New Year's Day:</span>
+                    <span>12pm - 6pm</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Booking Information -->
+              <div class="p-6 rounded-lg glassmorphic-card">
+                <h3 class="mb-4 text-xl font-display gold-accent flex items-center">
+                  <span class="mr-2">🎁</span> Booking Information
+                </h3>
+                <p class="mb-4 text-gray-400">
+                  Pre-booking is essential for our Christmas menu. A £10 per person deposit is required to secure your table.
+                </p>
+                <div class="space-y-3">
+                  <div class="flex items-center">
+                    <span class="mr-3 gold-accent">📞</span>
+                    <a href="tel:01969640272" class="text-white hover:text-gold-accent transition-colors">
+                      01969 640272
+                    </a>
+                  </div>
+                  <div class="flex items-center">
+                    <span class="mr-3 gold-accent">✉️</span>
+                    <a href="mailto:enquiries@forestersarmscoverdale.com" class="text-white hover:text-gold-accent transition-colors">
+                      enquiries@forestersarmscoverdale.com
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Dietary Information -->
+              <div class="p-6 rounded-lg glassmorphic-card">
+                <h3 class="mb-4 text-xl font-display gold-accent flex items-center">
+                  <span class="mr-2">🌱</span> Dietary Requirements
+                </h3>
+                <p class="text-gray-400">
+                  We cater for all dietary needs including vegetarian, vegan, gluten-free, and nut allergies.
+                  Please inform us when booking so we can prepare something truly special for you.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- New Year Celebrations Section -->
+    <section id="new-year" class="py-20 bg-black md:py-32">
+      <div class="container px-6 mx-auto">
+        <div class="text-center mb-16">
+          <h2 class="mb-6 text-4xl md:text-5xl font-display gold-accent animate-fadeInUp">
+            New Year Celebrations
+          </h2>
+          <p class="max-w-3xl mx-auto text-xl text-gray-400 animate-fadeInUp delay-1">
+            Ring in the New Year with style! Choose from our dinner packages or join us for a spectacular celebration.
+          </p>
+        </div>
+
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <!-- New Year's Eve Dinner -->
+          <div class="p-8 transition-transform duration-300 transform shadow-2xl glassmorphic-card rounded-xl hover:scale-105 animate-fadeInUp delay-1">
+            <div class="text-center mb-6">
+              <h3 class="mb-3 text-2xl font-display gold-accent">New Year's Eve Dinner</h3>
+              <div class="text-3xl font-bold gold-accent mb-2">£75</div>
+              <div class="text-sm text-gray-400">per person</div>
+            </div>
+            <ul class="mb-6 space-y-2 text-sm text-gray-400">
+              <li class="flex items-center">
+                <span class="mr-2 gold-accent">🍽️</span> 4-course festive dinner
+              </li>
+              <li class="flex items-center">
+                <span class="mr-2 gold-accent">🥂</span> Glass of champagne at midnight
+              </li>
+              <li class="flex items-center">
+                <span class="mr-2 gold-accent">🎉</span> Live entertainment
+              </li>
+              <li class="flex items-center">
+                <span class="mr-2 gold-accent">🎊</span> Party favors and countdown
+              </li>
+              <li class="flex items-center">
+                <span class="mr-2 gold-accent">🍾</span> Fireworks display
+              </li>
+            </ul>
+            <div class="text-center">
+              <p class="text-sm text-gray-400 mb-4">Seating: 7:00pm - Late</p>
+              <button class="w-full px-6 py-2 font-semibold transition-colors duration-300 border-2 rounded-lg border-gold-accent gold-accent hover:bg-gold-accent hover:text-black">
+                Book Now
+              </button>
+            </div>
+          </div>
+
+          <!-- New Year's Day Brunch -->
+          <div class="p-8 transition-transform duration-300 transform shadow-2xl glassmorphic-card rounded-xl hover:scale-105 animate-fadeInUp delay-2">
+            <div class="text-center mb-6">
+              <h3 class="mb-3 text-2xl font-display gold-accent">New Year's Day Brunch</h3>
+              <div class="text-3xl font-bold gold-accent mb-2">£25</div>
+              <div class="text-sm text-gray-400">per person</div>
+            </div>
+            <ul class="mb-6 space-y-2 text-sm text-gray-400">
+              <li class="flex items-center">
+                <span class="mr-2 gold-accent">🍳</span> Full Yorkshire breakfast
+              </li>
+              <li class="flex items-center">
+                <span class="mr-2 gold-accent">🧀</span> Continental selection
+              </li>
+              <li class="flex items-center">
+                <span class="mr-2 gold-accent">☕</span> Unlimited tea & coffee
+              </li>
+              <li class="flex items-center">
+                <span class="mr-2 gold-accent">🍹</span> Bloody Mary or Mimosa
+              </li>
+              <li class="flex items-center">
+                <span class="mr-2 gold-accent">🎵</span> Relaxed atmosphere
+              </li>
+            </ul>
+            <div class="text-center">
+              <p class="text-sm text-gray-400 mb-4">Service: 10:00am - 2:00pm</p>
+              <button class="w-full px-6 py-2 font-semibold transition-colors duration-300 border-2 rounded-lg border-gold-accent gold-accent hover:bg-gold-accent hover:text-black">
+                Reserve Table
+              </button>
+            </div>
+          </div>
+
+          <!-- New Year Package -->
+          <div class="p-8 transition-transform duration-300 transform shadow-2xl glassmorphic-card rounded-xl hover:scale-105 animate-fadeInUp delay-3">
+            <div class="text-center mb-6">
+              <h3 class="mb-3 text-2xl font-display gold-accent">Stay & Celebrate</h3>
+              <div class="text-3xl font-bold gold-accent mb-2">£199</div>
+              <div class="text-sm text-gray-400">per couple</div>
+            </div>
+            <ul class="mb-6 space-y-2 text-sm text-gray-400">
+              <li class="flex items-center">
+                <span class="mr-2 gold-accent">🏨</span> One night accommodation
+              </li>
+              <li class="flex items-center">
+                <span class="mr-2 gold-accent">🍽️</span> New Year's Eve dinner
+              </li>
+              <li class="flex items-center">
+                <span class="mr-2 gold-accent">🍾</span> Champagne breakfast
+              </li>
+              <li class="flex items-center">
+                <span class="mr-2 gold-accent">🎊</span> All celebrations included
+              </li>
+              <li class="flex items-center">
+                <span class="mr-2 gold-accent">🛏️</span> Late checkout (1pm)
+              </li>
+            </ul>
+            <div class="text-center">
+              <p class="text-sm text-gray-400 mb-4">Available Dec 31st - Jan 1st</p>
+              <a
+                href="http://securebooking.eviivo.com/mywebsite/ForestersArmsDL8.home?viewname=onlinebooking"
+                target="_blank"
+                class="block w-full px-6 py-2 font-semibold text-center text-black transition-colors duration-300 rounded-lg bg-gold-accent hover-gold-accent"
+              >
+                Book Package
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Festive Drinks Section -->
+    <section class="py-20 bg-gray-900 md:py-32">
+      <div class="container px-6 mx-auto">
+        <div class="text-center mb-16">
+          <h2 class="mb-6 text-4xl md:text-5xl font-display gold-accent animate-fadeInUp">
+            Festive Drinks
+          </h2>
+          <p class="max-w-3xl mx-auto text-xl text-gray-400 animate-fadeInUp delay-1">
+            Warm up with our seasonal cocktails and winter warmers, crafted to complement your festive celebrations.
+          </p>
+        </div>
+
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div class="text-center animate-fadeInUp delay-1">
+            <div class="w-20 h-20 mx-auto mb-4 bg-red-600 rounded-full flex items-center justify-center">
+              <span class="text-2xl">🍸</span>
+            </div>
+            <h3 class="mb-2 text-lg font-display gold-accent">Mulled Wine</h3>
+            <p class="text-sm text-gray-400">£5.50</p>
+          </div>
+
+          <div class="text-center animate-fadeInUp delay-2">
+            <div class="w-20 h-20 mx-auto mb-4 bg-green-600 rounded-full flex items-center justify-center">
+              <span class="text-2xl">☕</span>
+            </div>
+            <h3 class="mb-2 text-lg font-display gold-accent">Spiced Hot Chocolate</h3>
+            <p class="text-sm text-gray-400">£4.50</p>
+          </div>
+
+          <div class="text-center animate-fadeInUp delay-3">
+            <div class="w-20 h-20 mx-auto mb-4 bg-amber-600 rounded-full flex items-center justify-center">
+              <span class="text-2xl">🍹</span>
+            </div>
+            <h3 class="mb-2 text-lg font-display gold-accent">Festive Martini</h3>
+            <p class="text-sm text-gray-400">£8.50</p>
+          </div>
+
+          <div class="text-center animate-fadeInUp delay-4">
+            <div class="w-20 h-20 mx-auto mb-4 bg-purple-600 rounded-full flex items-center justify-center">
+              <span class="text-2xl">🥂</span>
+            </div>
+            <h3 class="mb-2 text-lg font-display gold-accent">Winter Spritz</h3>
+            <p class="text-sm text-gray-400">£7.50</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-20 bg-black md:py-32">
+      <div class="container px-6 mx-auto text-center">
+        <h2 class="mb-6 text-4xl font-display gold-accent animate-fadeInUp">
+          Make This Christmas Unforgettable
+        </h2>
+        <p class="max-w-2xl mx-auto mb-8 text-xl text-gray-400 animate-fadeInUp delay-1">
+          Book early to secure your place for our festive celebrations. Limited availability during the holiday season.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center animate-fadeInUp delay-2">
+          <a
+            href="tel:01969640272"
+            class="px-8 py-3 text-lg font-semibold text-black transition-all duration-300 transform rounded-lg bg-gold-accent hover-gold-accent hover:scale-105 focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-opacity-50"
+          >
+            Call to Book: 01969 640272
+          </a>
+          <a
+            href="mailto:enquiries@forestersarmscoverdale.com"
+            class="px-8 py-3 text-lg font-semibold transition-all duration-300 transform rounded-lg border-2 border-gold-accent gold-accent hover:bg-gold-accent hover:text-black focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-opacity-50"
+          >
+            Email Us
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+
+  <style>
+    @media (min-width: 1080px) {
+      section > .container {
+        max-width: 80%;
+        margin: 0 auto;
+      }
+    }
+
+    /* Add some festive styling */
+    .christmas-accent {
+      background: linear-gradient(45deg, #D4AF37, #FFD700, #D4AF37);
+      background-size: 200% 200%;
+      animation: subtleShine 3s ease-in-out infinite;
+    }
+  </style>
+</Layout>
