@@ -9,7 +9,7 @@
   <div class="container px-6 py-4 mx-auto">
     <div class="flex items-center justify-between">
       <a
-        href="#"
+        href="/"
         class="text-2xl font-bold font-display gold-accent animate-fadeIn"
         >Foresters Arms</a
       >
@@ -18,10 +18,38 @@
       >
         <a href="/" class="text-gray-300 nav-link-hover">Home</a>
         <a href="/#about-us" class="text-gray-300 nav-link-hover">About Us</a>
-        <a href="/restaurant" class="text-gray-300 nav-link-hover">Restaurant</a>
-        <a href="/christmas-menus" class="text-gray-300 nav-link-hover">Christmas Menus</a>
+        <div class="relative group">
+          <button
+            class="text-gray-300 nav-link-hover flex items-center space-x-1 focus:outline-none"
+            onclick="toggleDropdown('restaurant-dropdown')"
+          >
+            <span>Restaurant</span>
+            <svg class="w-4 h-4 transition-transform duration-200 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div
+            id="restaurant-dropdown"
+            class="absolute top-full left-0 mt-2 w-64 bg-gray-900/95 backdrop-blur-md rounded-lg shadow-lg border border-gray-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0 z-50"
+          >
+            <a
+              href="/restaurant"
+              class="block px-4 py-3 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors duration-200 first:rounded-t-lg"
+            >
+              Example Menus and Gallery
+            </a>
+            <a
+              href="/menus/xmas-fayre.webp"
+              class="block px-4 py-3 text-gray-300 hover:bg-gray-800 hover:text-white transition-colors duration-200 rounded-b-lg"
+            >
+              Christmas and New Year Menus
+            </a>
+          </div>
+        </div>
         <a href="/#rooms" class="text-gray-300 nav-link-hover">Rooms</a>
-        <a href="/local-attractions" class="text-gray-300 nav-link-hover">Local Attractions</a>
+        <a href="/local-attractions" class="text-gray-300 nav-link-hover"
+          >Local Attractions</a
+        >
         <a href="/history" class="text-gray-300 nav-link-hover">History</a>
         <a href="/#contact" class="text-gray-300 nav-link-hover">Contact</a>
         <a
@@ -57,42 +85,66 @@
   <!-- Mobile Menu Panel -->
   <div
     id="mobile-menu"
-    class="absolute left-0 right-0 py-4 xl-nav:hidden top-full bg-gray-900/95 backdrop-blur-md z-40 border-t border-gray-700 transform transition-all duration-300 ease-in-out opacity-0 -translate-y-2 pointer-events-none"
+    class="absolute right-0 py-4 xl-nav:hidden top-full bg-gray-900/95 backdrop-blur-md z-40 border-t border-gray-700 transform transition-all duration-300 ease-in-out opacity-0 -translate-y-2 pointer-events-none w-[300px]"
     style="display: none;"
   >
     <a
       href="/"
-      class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
+      class="block px-4 py-2 text-gray-200 transition-colors duration-300 hover:bg-gray-800"
       >Home</a
     >
     <a
       href="/#about-us"
-      class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
+      class="block px-4 py-2 text-gray-200 transition-colors duration-300 hover:bg-gray-800"
       >About Us</a
     >
     <a
-      href="/restaurant"
-      class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
-      >Restaurant</a
-    >
-    <a
-      href="/#rooms"
-      class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
-      >Rooms</a
-    >
-    <a
       href="/local-attractions"
-      class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
+      class="block px-4 py-2 text-gray-200 transition-colors duration-300 hover:bg-gray-800"
       >Local Attractions</a
     >
     <a
       href="/history"
-      class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
+      class="block px-4 py-2 text-gray-200 transition-colors duration-300 hover:bg-gray-800"
       >History</a
     >
     <a
+      href="/#rooms"
+      class="block px-4 py-2 text-gray-200 transition-colors duration-300 hover:bg-gray-800"
+      >Rooms</a
+    >
+    <div class="relative">
+      <button
+        class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800 focus:outline-none"
+        onclick="toggleMobileDropdown('mobile-restaurant-dropdown')"
+      >
+        Restaurant
+        <svg class="w-4 h-4 float-right mt-0.5 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </button>
+      <div
+        id="mobile-restaurant-dropdown"
+        class="hidden bg-gray-800/95 backdrop-blur-md border-t border-gray-700 mt-1 w-full"
+        style="position: static; z-index: 70;"
+      >
+        <a
+          href="/restaurant"
+          class="block px-8 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-200"
+        >
+          Example Menus and Gallery
+        </a>
+        <a
+          href="/xmas-new-year"
+          class="block px-8 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white transition-colors duration-200"
+        >
+          Christmas and New Year Menus
+        </a>
+      </div>
+    </div>
+    <a
       href="/#contact"
-      class="block px-4 py-2 text-center text-gray-200 transition-colors duration-300 hover:bg-gray-800"
+      class="block px-4 py-2 text-gray-200 transition-colors duration-300 hover:bg-gray-800"
       >Contact</a
     >
     <a
@@ -181,4 +233,64 @@
       }, 300);
     }
   });
+
+  // Desktop dropdown functionality
+  function toggleDropdown(dropdownId) {
+    const dropdown = document.getElementById(dropdownId);
+    if (dropdown) {
+      const isVisible = !dropdown.classList.contains("invisible");
+      closeAllDropdowns();
+
+      if (!isVisible) {
+        dropdown.classList.remove("opacity-0", "invisible", "translate-y-2");
+        dropdown.classList.add("opacity-100", "visible", "translate-y-0");
+      }
+    }
+  }
+
+  // Mobile dropdown functionality
+  function toggleMobileDropdown(dropdownId) {
+    const dropdown = document.getElementById(dropdownId);
+    if (dropdown) {
+      dropdown.classList.toggle("hidden");
+    }
+  }
+
+  // Close all dropdowns when clicking outside
+  document.addEventListener("click", function (event) {
+    // Close desktop dropdowns
+    const desktopDropdown = document.getElementById("restaurant-dropdown");
+    if (desktopDropdown && !desktopDropdown.contains(event.target)) {
+      const button = event.target.closest("button[onclick*='toggleDropdown']");
+      if (!button) {
+        closeAllDropdowns();
+      }
+    }
+
+    // Close mobile menu when clicking outside
+    const mobileMenuButton = document.getElementById("mobile-menu-button");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    if (
+      mobileMenuButton &&
+      mobileMenu &&
+      mobileMenu.style.display !== "none" &&
+      !mobileMenuButton.contains(event.target) &&
+      !mobileMenu.contains(event.target)
+    ) {
+      mobileMenu.classList.remove("opacity-100", "translate-y-0");
+      mobileMenu.classList.add("opacity-0", "-translate-y-2", "pointer-events-none");
+      setTimeout(() => {
+        mobileMenu.style.display = "none";
+      }, 300);
+    }
+  });
+
+  function closeAllDropdowns() {
+    const dropdowns = document.querySelectorAll("[id$='-dropdown']:not([id*='mobile'])");
+    dropdowns.forEach(dropdown => {
+      dropdown.classList.add("opacity-0", "invisible", "translate-y-2");
+      dropdown.classList.remove("opacity-100", "visible", "translate-y-0");
+    });
+  }
 </script>
